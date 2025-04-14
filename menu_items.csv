@@ -1,0 +1,501 @@
+temp_id,nombre,descripcion,ingredientes,precio,disponible,categoria,restaurante_id
+bbd69e11-a861-4bce-8349-d98de1b75071,Voluptate,Excepturi provident tenetur fuga suscipit.,"saepe, nam",123.72,True,Entrada,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+8f549205-f994-4959-b5e9-ca784d87a2e3,Accusamus,Atque provident aliquid rem.,"eos, autem, nihil, natus, nisi",55.08,True,Bebida,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+77bacd68-84d3-467e-8392-385521f4c323,Dolores,Delectus perspiciatis perferendis tenetur.,"possimus, optio",184.27,False,Postre,6f577405-1c44-47a7-8eac-44d7ea038299
+5374e7e9-096f-4b3f-a6c1-e1299c144f41,Dicta,Harum dolor dolor neque totam.,"quibusdam, alias, distinctio, consectetur",76.16,False,Postre,b99c0c09-5047-4296-8139-acfde3571c98
+17ed6982-8953-4e62-ab1e-d525169b5510,Magnam,Aperiam reiciendis accusamus.,"aut, soluta, accusamus",159.07,True,Plato fuerte,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+08bad6bf-ae7e-489b-90e5-5a78b6794008,Ipsa,Accusantium quia officiis consequuntur id eum.,"dicta, ullam",56.59,True,Plato fuerte,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+598593a5-dc1a-4a5a-b0e3-e11ad5c09f09,Illum,Perferendis ipsa error possimus voluptate.,"aspernatur, placeat, debitis, provident",241.44,True,Postre,6826f206-4b96-4a1a-8eff-809cabb06a53
+50139397-31d3-458f-893b-00bad50e18a4,Quidem,Neque tenetur reiciendis sapiente consequatur quidem fugiat.,"nisi, officiis, corrupti, repellendus",103.99,False,Plato fuerte,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+6ce91117-b08e-4d7f-b312-5e09a560b214,Consequuntur,Error aspernatur dolorem amet earum eum.,"nulla, molestiae, officia",169.31,False,Entrada,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+3ebfd4d3-6005-450a-8a11-07c31209e6f0,Provident,Error aperiam quibusdam esse quidem blanditiis similique.,"enim, ad, rem, voluptates, consequuntur",292.47,False,Plato fuerte,320d825e-799a-42bf-975b-b541c93996f2
+9a135b41-3f10-4ca5-9788-1a751c33a731,Rem,Numquam inventore sed.,"necessitatibus, autem, ipsam",93.04,False,Postre,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+bd0deace-b6cf-405b-9500-5591c7fe44c0,Numquam,Veritatis veritatis consectetur laboriosam recusandae aspernatur.,"natus, a, dicta, tempore",170.58,True,Plato fuerte,32a63a8e-c480-4d15-82ce-196c13bd2970
+c32a38dc-e26d-4f88-b11c-19427b576829,Placeat,Nam rerum animi cum explicabo voluptate error.,"ullam, officiis",252.2,True,Postre,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+6ce60aa1-ebfa-4fb2-b2d7-4613912b66eb,Dolor,Nulla similique distinctio aut neque est officiis.,"assumenda, cupiditate",114.1,True,Bebida,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+2b302f09-a559-4acb-9322-54a1ce50f7c1,Impedit,Ipsa ipsa quasi quaerat.,"dignissimos, harum",193.96,False,Entrada,a4fd99c5-0060-4207-9cc0-879563a72484
+cd658a8f-40cc-4fe0-85d7-af50a49cbee4,Unde,Architecto quam tempora.,"maiores, earum, alias",175.3,False,Plato fuerte,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+b9600fda-dd8e-449c-9408-a0503550ea70,Quas,Vel odio earum.,"officiis, sapiente, aut, sapiente, pariatur",264.78,False,Plato fuerte,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+0ace7fb9-8404-4999-8363-dbdca24a8767,Accusamus,Illo sit quos architecto fugit doloremque cum.,"veniam, expedita",146.86,True,Entrada,b3e006c6-cce9-46e5-bb29-d23d927087ae
+09af6037-a85c-4e15-a0a5-058e54ec42b6,Eligendi,Unde enim nulla nesciunt.,"minima, quam, quas, debitis",223.45,True,Postre,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+bd474e67-f679-488a-8671-5e1a5b5c1d25,Aperiam,Doloremque esse amet in voluptas.,"recusandae, quis, officia, laborum",164.84,False,Entrada,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+2077725e-f829-451e-b8e2-75ad13ed294b,Qui,Temporibus enim dolorem non eum.,"a, veniam, nemo",224.91,True,Plato fuerte,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+1c4fd0d2-2377-46e7-a98e-37bfa855c2bb,A,Repellat molestiae provident ipsam.,"eos, unde, minus, magni",149.63,False,Entrada,cc47b120-18c5-41ac-8e03-a30db1bf3290
+2dc18cce-c970-43fb-b025-5e9bab340e99,Id,Debitis quae laborum nostrum.,"odit, occaecati",287.41,False,Postre,cc47b120-18c5-41ac-8e03-a30db1bf3290
+db4d39c3-bef7-49c8-be8c-b0ffecaa8b4a,Dolores,Quaerat provident tenetur facilis voluptatem explicabo veniam quam.,"enim, inventore, doloremque",172.1,False,Bebida,98024bcb-b9fb-463f-9990-4e337d780ce2
+7e85f729-8db4-4b24-9ee7-7cdb7f03dbac,Maxime,Quo maxime cumque esse ab iste enim.,"ad, assumenda",297.09,True,Postre,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+47fb27e4-a271-4f28-9372-77d908570c6b,Aperiam,Debitis maxime fuga quis reprehenderit eius.,"eligendi, aliquid",136.01,True,Plato fuerte,8a349e05-7c9d-43b8-acde-60136f98f69d
+a8824e15-7289-4383-b709-0f77b3b40939,Deleniti,Architecto impedit labore consequatur rem laudantium aspernatur provident.,"quasi, beatae, laboriosam, error",178.5,False,Bebida,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+eee59e13-d733-43d4-95cd-39d445beb736,Pariatur,Aliquid a labore id vitae tenetur neque assumenda.,"tempore, doloribus, fugiat",221.84,False,Bebida,b99c0c09-5047-4296-8139-acfde3571c98
+46e822a7-f5d2-4a69-bf98-03c33660340f,Neque,Tempora laboriosam aliquid vitae.,"incidunt, facere, qui",116.08,False,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+57cd9544-a6b6-4a2f-81db-99f46dd5ce1e,Illo,Voluptatem non explicabo itaque magni occaecati.,"soluta, numquam",143.27,True,Plato fuerte,72a40609-2c3e-4acd-9922-561967e70b81
+f2fa6115-1f77-45f4-a568-953020b05adb,Sit,Non voluptatem natus voluptatum explicabo.,"id, explicabo",106.14,False,Entrada,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+138342f8-fd23-4903-9ba2-d558580ddb51,Dolor,Harum illum iste soluta magnam tempora.,"ad, consectetur, nam",209.06,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+a8980d3a-69ce-4766-8fd9-5c5d6394cf4e,Enim,Id quas nostrum enim asperiores eveniet.,"exercitationem, id, laudantium, adipisci",201.83,False,Postre,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+313cd582-9539-4a23-b645-b60518ac5980,Aspernatur,Eius veritatis cupiditate saepe officiis.,"recusandae, veniam",60.11,True,Entrada,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+c77d451c-e58f-48fb-83fe-a7a5dab5cceb,Amet,Magnam quam aperiam aliquam a.,"sequi, nobis, quam, sapiente, nostrum",234.33,True,Bebida,98024bcb-b9fb-463f-9990-4e337d780ce2
+760e8f45-956c-481f-9dba-56d2d110f26c,Facilis,Dignissimos dolor nesciunt maxime.,"molestiae, at, ullam, in, dolorum",112.39,False,Entrada,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+c1bbb09a-4db6-446b-aa47-eb0a6c3f0127,Corporis,Debitis unde quaerat exercitationem expedita.,"tenetur, nulla, dicta",64.74,True,Entrada,019e945b-528a-47de-a30a-2cebf5a9bee0
+a3beb5c8-2040-4aff-a3c3-5cf7bed4bd81,Porro,Recusandae sint voluptatum nostrum.,"eligendi, tempore, maxime, illo",77.56,False,Postre,29c96df6-7e78-4a49-8404-04503a2941d8
+c9b8c934-723b-42ea-a29f-48a0031e5461,Nihil,Animi cupiditate officia nostrum eaque error.,"expedita, eius, iusto, expedita",186.98,False,Entrada,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+37dcacef-3fed-42e5-afaf-7221a2ec2cb9,Sapiente,Quod ex facilis velit repellat quod nobis.,"molestiae, eum, quis, enim, totam",95.45,True,Plato fuerte,f3583c42-ecf7-45ef-af01-9a38abf25226
+24002d00-8c16-4c2f-9345-583bba90b7ba,Sequi,Tempore magnam explicabo ipsum consequuntur omnis sapiente.,"recusandae, dolor, vel, a, magni",239.81,True,Entrada,320d825e-799a-42bf-975b-b541c93996f2
+3ae7bd62-f836-4905-8e84-c02d2f7b68cf,Saepe,Soluta porro magni.,"maiores, aut, architecto, culpa",60.25,False,Plato fuerte,ace95a4f-247a-4338-9bd9-589d5ea1183e
+bc558b07-4d39-4d8f-860b-d1e61bd0f014,Nihil,Nulla illo porro aliquid pariatur fuga deserunt.,"exercitationem, eos, incidunt, laboriosam",197.67,True,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+214b1744-e9f0-44f9-bb36-cbe106b0e66f,Ad,Hic fugit quam culpa maxime quaerat.,"laudantium, ullam",263.34,True,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+d2a5b898-f4c2-4323-ad35-70d7fd71720c,Dolores,Nostrum id numquam eos animi nisi inventore.,"assumenda, autem, tempora, repellendus, sint",158.59,True,Entrada,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+35978f24-c195-419d-9439-35d425806602,Laborum,At corporis dicta tenetur enim inventore adipisci.,"deleniti, ipsam, soluta",250.59,True,Entrada,72a40609-2c3e-4acd-9922-561967e70b81
+4e6d0ff0-4fff-4ddc-9073-dbcebec1bc90,Beatae,Reprehenderit natus aut.,"repellat, hic, fugit, impedit, dicta",213.89,False,Postre,86a831ab-700f-4a89-885f-8d3c7bfdda59
+9dd69944-9054-4be2-ab5a-6ae0cc86a657,Iure,Reiciendis alias sit necessitatibus laudantium fugit et fugit.,"officiis, excepturi, eos, nulla, doloribus",158.29,True,Bebida,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+f7b3dc84-99f9-45ae-8973-309201385753,Nulla,Possimus animi nesciunt eos.,"ipsam, quo",59.34,True,Bebida,df94e915-aabb-4df3-9947-a0a4633c2666
+30f4ff22-556d-4098-9ef1-79087c710542,Voluptates,Nihil est rem deleniti distinctio et sapiente facilis.,"eum, totam",70.67,False,Entrada,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+2068e405-1509-44bb-bbda-bb962d11fd6d,Veniam,Enim reprehenderit ad ut explicabo voluptatibus harum impedit.,"voluptatum, nesciunt",152.5,False,Entrada,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+fd15c8e1-96b5-4208-8112-0e7a90285391,Itaque,Beatae omnis suscipit.,"nam, aliquid, non, quae, maxime",207.04,False,Bebida,ace95a4f-247a-4338-9bd9-589d5ea1183e
+b783731d-37a7-4031-abe6-5bcea6f0f963,Voluptates,Beatae nesciunt sint eligendi rem error repellendus.,"minus, at",200.82,True,Postre,09000c09-72ba-4ecd-83a7-6bd602e0a610
+41c3180d-b01e-48dc-8ef5-c97dc262b651,Suscipit,Id voluptas doloribus assumenda.,"adipisci, voluptate, architecto",186.13,True,Plato fuerte,019e945b-528a-47de-a30a-2cebf5a9bee0
+4f198076-33f2-44c2-a2cb-e7323d196416,Ratione,Animi nobis eligendi soluta vitae facere.,"quibusdam, eaque, alias, autem",183.93,True,Entrada,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+b18b5636-a8b5-4cb9-8e72-0548a2523e8e,Ex,Ipsa itaque ducimus sequi quos architecto.,"tempore, eligendi, incidunt, quidem, illum",177.34,False,Plato fuerte,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+0a09b62a-facf-4391-bad7-4fe77ab1865b,Eaque,Officia pariatur magnam natus.,"placeat, nihil, tenetur, perspiciatis",122.86,True,Bebida,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+43da4eb8-2326-45e2-86f7-9be5a08ccf72,Corrupti,Asperiores sequi impedit culpa laudantium optio.,"nemo, ipsa, laborum",204.68,True,Entrada,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+238c7576-b1bc-4c53-9d0a-a26640d4029e,Facilis,Doloremque sequi nostrum eum laudantium.,"iure, asperiores",248.04,False,Entrada,c0763211-373e-4800-866f-842361d899ff
+e16175f7-0363-4a0a-b7f7-7b48db131c46,Eveniet,Deleniti incidunt totam ullam.,"consequatur, assumenda, id, impedit",226.94,True,Bebida,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+930eebd4-4151-4fd4-a093-c06183a1f99b,Rerum,Laudantium quae necessitatibus pariatur voluptate.,"nemo, est, voluptates, consequatur",207.25,True,Entrada,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+908c35e0-cb2a-41ce-a276-da596a68758b,Nam,Omnis nemo numquam explicabo aliquid aspernatur velit.,"dolorum, repudiandae, esse, illum, dolores",129.14,True,Plato fuerte,8b911534-9c79-4f64-86b7-396560087ea9
+cb49f871-1869-480f-90f9-675d94ce3d8c,Quod,Reprehenderit similique nostrum quos asperiores.,"dolor, ipsam, culpa, molestias",239.58,True,Plato fuerte,8a349e05-7c9d-43b8-acde-60136f98f69d
+1e577e1c-f39c-4f63-903c-c1699800a8ec,Dolorum,Magnam deserunt reiciendis adipisci.,"adipisci, quibusdam",141.91,False,Postre,8b911534-9c79-4f64-86b7-396560087ea9
+95b6e962-370c-4911-a4a0-d24577e21178,Ipsam,Rem excepturi modi numquam laborum enim nobis.,"omnis, mollitia, ex",73.64,True,Plato fuerte,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+68d0a93c-ca82-4242-8db0-8f196c20c830,Dolore,Magnam nobis modi labore rerum aspernatur aliquid.,"enim, quae, alias, nemo",75.58,False,Postre,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+409b3fa9-db86-4049-9e46-91b285895b00,Veniam,Harum iusto incidunt ex id autem adipisci.,"magnam, quas, reiciendis, ipsa, repudiandae",214.51,True,Postre,6826f206-4b96-4a1a-8eff-809cabb06a53
+fefab599-93f4-4fe1-8680-4284240518cc,Quisquam,Facilis a fuga ratione.,"consectetur, consequuntur, aspernatur, repellendus",221.58,False,Entrada,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+3ada37ad-cd61-45fd-8251-6c3ecf827e64,Iusto,Cum aut eum consequuntur.,"doloribus, quo, quod, eius",106.29,False,Entrada,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+74f43201-c95f-450a-a468-e3e56e3e5ac6,Magnam,Ad animi eius commodi ullam adipisci illo nihil.,"praesentium, officia, unde, aspernatur",163.05,True,Postre,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+8f3906c8-4957-42bd-97e9-f2f32a4acabc,Cum,Voluptates delectus dicta.,"eum, quisquam",171.77,False,Postre,c466af74-7bb7-4398-944b-6a49a69f3146
+3489274e-7523-4200-9a3a-1dafc8bb1cc5,Dicta,Omnis enim repellendus commodi provident.,"quasi, quidem, quam, ad",135.17,True,Plato fuerte,8b911534-9c79-4f64-86b7-396560087ea9
+bf0f44a0-9af0-45b2-82d0-c94d0c37fafc,Doloremque,Porro beatae molestiae quae corrupti praesentium.,"vel, atque, aut, non, alias",152.03,True,Bebida,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+353a01d6-91fe-4e74-8421-87ce99c8fad2,Vel,Nam iusto amet sunt explicabo incidunt cupiditate.,"non, in, tenetur, odit, distinctio",141.41,False,Postre,ace95a4f-247a-4338-9bd9-589d5ea1183e
+67a7f44c-821d-45f2-bb8c-88889c8b22ae,Dolor,Eius occaecati sed tempore quae.,"numquam, saepe, ullam",229.81,False,Entrada,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+d87e4c1b-ef05-4e4b-9912-4245764cf5ee,Distinctio,Pariatur quaerat aperiam assumenda perspiciatis.,"molestias, asperiores, sapiente, ipsum, assumenda",145.05,True,Bebida,df94e915-aabb-4df3-9947-a0a4633c2666
+4ff921a0-6c22-431d-b609-fda16802a179,Ipsa,Labore accusamus nam voluptate labore aut.,"consequatur, dolores, eius, architecto",282.42,True,Entrada,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+6344a3e9-c31f-4cee-a726-09cabd4eec65,Eius,Iure error necessitatibus ea ullam cupiditate.,"fugiat, deserunt",165.47,False,Bebida,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+b8c7fbcb-6616-463b-84fa-4f0257415563,Saepe,Dolorum nemo consequatur minima.,"rem, odio, provident, tempore, sint",216.93,False,Postre,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+f35bf647-2ce9-4f86-88f9-deef8fade2cb,Deserunt,Maxime rerum facilis tempora dolor dolorum laborum odit.,"earum, maxime, adipisci, officiis",230.65,False,Bebida,86a831ab-700f-4a89-885f-8d3c7bfdda59
+9a901093-2b00-47a9-af4c-fd7ddfca3f84,Autem,Omnis iusto quas.,"cumque, eius",130.07,True,Plato fuerte,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+935cbe5c-b61d-4a71-a80e-8e6f69664a4e,Tempore,Officiis quia vel dicta est.,"molestiae, sequi",279.88,True,Bebida,e1d9d489-791f-4871-bae6-e192795eda75
+d2795865-f5a0-4797-a364-2ccc58970a9b,Dicta,Amet rerum aperiam maiores maiores hic a magni.,"suscipit, non",148.28,False,Postre,6f577405-1c44-47a7-8eac-44d7ea038299
+0fe92dd6-7067-4ecf-b3ef-b711a630e252,Sequi,Nisi cupiditate earum asperiores aliquam.,"vero, repudiandae, enim",115.99,True,Entrada,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+ada66756-d118-4202-ab0f-ada463c0d042,Tempore,Maiores id ex.,"autem, impedit, hic",192.21,False,Plato fuerte,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+4e1d8a5e-886b-4ae4-a59d-60abd4898855,Quam,Nam ut placeat ipsam doloremque recusandae temporibus consequatur.,"iusto, corrupti, facilis",74.83,True,Entrada,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+7ae1ab4a-a81a-4ded-b9ed-6f1de2be65fc,Consequatur,Necessitatibus exercitationem fuga at earum similique quisquam.,"numquam, est, suscipit",102.14,False,Postre,3bff8b7e-6c3a-4b98-b328-8857513627a4
+8455add6-00b6-43af-9b6b-2e51835c1c44,Alias,Quasi iure eveniet alias quasi dolorem.,"laboriosam, quis, iusto",57.8,False,Plato fuerte,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+f0bf6d6f-1622-459b-b84a-377a3d57c392,Voluptas,Corporis maxime debitis.,"ducimus, soluta",66.3,False,Bebida,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+095149c7-3ff5-4aa6-a0d9-6694849813cd,Voluptates,Expedita illum mollitia explicabo quo consequuntur.,"debitis, ipsam, cumque",222.11,False,Entrada,86a831ab-700f-4a89-885f-8d3c7bfdda59
+a6cd4b56-8339-4118-9986-0c4e353574eb,Sapiente,Quam quam autem iure at molestias quis explicabo.,"temporibus, dolorum, facere, necessitatibus",69.18,False,Entrada,3bff8b7e-6c3a-4b98-b328-8857513627a4
+de0d7cbb-6d79-43c8-ad99-2a784f879f6f,Est,Deserunt officia ex architecto hic.,"reprehenderit, porro, occaecati, corporis, inventore",175.27,False,Bebida,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+79872fc8-2249-4c30-b410-231c0ed4f87c,Iusto,Nihil quia a illum delectus facilis.,"quisquam, est, nesciunt",139.79,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+41caa9ac-bff1-46d9-849f-628c1a8ba9ce,Fugit,Eveniet eaque quia dignissimos.,"facere, voluptas",116.03,False,Entrada,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+143f2c6f-9a4f-46a1-8fed-b63b480a4fbd,Suscipit,Assumenda sapiente aliquam eos necessitatibus quia amet.,"voluptatem, hic, nam, voluptate, dignissimos",114.7,False,Bebida,320d825e-799a-42bf-975b-b541c93996f2
+82a32615-bead-499b-90e3-6f575fce3625,Animi,Nesciunt error hic quam facere.,"sapiente, doloribus, blanditiis",140.78,False,Bebida,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+defadd08-fe7a-4b08-8f02-452738412a45,Autem,Cumque maiores tempora rem veritatis.,"iste, delectus",167.64,False,Entrada,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+d5dba05b-c507-4f2a-a323-a02d407f0060,Nulla,Earum itaque ratione a qui nihil.,"similique, blanditiis, amet, placeat",294.74,True,Plato fuerte,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+93854e10-176f-4230-98c8-7f9e6ced4897,Non,Amet error voluptate.,"ducimus, pariatur, quae, qui",254.19,False,Plato fuerte,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+c8d8a1cd-3599-4b7d-893e-c80c4af9e890,Commodi,Animi incidunt tempora eius placeat laborum maxime.,"aspernatur, tempore, quas, et",195.91,False,Plato fuerte,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+bd18e347-19d6-407a-b511-4137c3d5bc84,Quia,Ipsa necessitatibus iusto quo architecto perspiciatis molestiae.,"sunt, recusandae, inventore",176.84,False,Entrada,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+b77ab972-61d7-4916-8bd0-d18ce1cd8c79,Consectetur,Necessitatibus molestias quam in.,"praesentium, magnam, officiis, deleniti",253.74,False,Bebida,cc47b120-18c5-41ac-8e03-a30db1bf3290
+f3408814-a618-4277-8472-0b364eea9eee,Labore,Quaerat provident nulla ratione dolorem vel.,"quidem, facere, doloremque",231.67,True,Bebida,a4fd99c5-0060-4207-9cc0-879563a72484
+90df6e45-002c-480b-a776-24cd6eb329db,Voluptatem,Commodi officiis saepe voluptatibus sunt natus.,"repudiandae, suscipit, culpa, culpa",88.65,True,Bebida,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+d11702fe-907b-4c53-ba0c-edc902741f92,Modi,Numquam quam totam quidem earum.,"vero, tenetur, beatae",257.33,False,Bebida,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+e7984134-03d7-4c81-8154-3c44dd61f67b,Ipsum,Nesciunt animi totam dignissimos culpa.,"eos, magnam",184.07,True,Postre,c0763211-373e-4800-866f-842361d899ff
+e8ba7c29-fea2-464d-abb6-6ef040639fa4,Inventore,Iusto velit excepturi repudiandae labore adipisci iure.,"odio, modi, qui",99.32,False,Bebida,e1d9d489-791f-4871-bae6-e192795eda75
+f7039d6c-8050-4029-8e6a-395e76c83507,Vero,Iusto architecto nisi omnis consequatur.,"ullam, corporis",273.43,False,Postre,2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195
+e491b8c6-40db-4230-bc34-e4d7e00d67de,Molestiae,Ullam pariatur fugit fugit rem hic autem blanditiis.,"nostrum, reprehenderit, labore",190.37,False,Plato fuerte,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+d1b2b030-0355-4ef9-ba84-5a9ce4e36fe2,Eveniet,Soluta odio error sunt aperiam minima beatae.,"occaecati, at, non",53.55,False,Entrada,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+0f52f793-216a-4616-bfc3-8b82c6ecb85f,Soluta,Temporibus quam voluptates.,"iste, reprehenderit, error, temporibus",209.66,True,Postre,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+f44fd5ab-5f4b-486f-962b-ff8c7385a126,Ipsam,Iusto nam in doloremque illo magni.,"placeat, dolorum, inventore, ducimus, ipsa",50.36,True,Plato fuerte,ace95a4f-247a-4338-9bd9-589d5ea1183e
+0e0dedac-e4c7-4613-a203-c5daeea876c6,Impedit,Facere voluptatum quia fugit id cupiditate minus.,"distinctio, esse, quis",86.94,True,Entrada,09000c09-72ba-4ecd-83a7-6bd602e0a610
+c75dde1b-7b29-4ed0-8d8a-95fcb2bd4c5b,Provident,Dicta temporibus molestiae ea.,"ullam, voluptate, unde, consectetur",257.89,True,Entrada,ace95a4f-247a-4338-9bd9-589d5ea1183e
+b3e4ba90-d7c0-4535-bc2f-c214d330875c,Libero,Quibusdam voluptate temporibus repellendus quibusdam consequuntur repellendus.,"temporibus, occaecati, neque, temporibus, porro",148.59,False,Entrada,6f577405-1c44-47a7-8eac-44d7ea038299
+cc22e182-949a-4b6c-a5f6-8f4459d1870a,Suscipit,Doloremque deserunt tenetur dolor harum.,"repudiandae, corrupti, ea, veritatis",233.02,True,Plato fuerte,6f577405-1c44-47a7-8eac-44d7ea038299
+69a06138-3f55-41af-a757-a3904bc05610,In,Animi vel mollitia.,"enim, omnis, praesentium, beatae",152.82,False,Postre,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+4202160f-a920-4b30-9a4c-dbe028df69fc,Animi,Quibusdam doloribus fuga tenetur eligendi delectus id.,"placeat, qui",171.76,True,Plato fuerte,29c96df6-7e78-4a49-8404-04503a2941d8
+69f4e438-e0dd-44d7-a8ac-f8dce31b0738,Tempore,Aspernatur non aperiam culpa vel aliquam aliquid.,"odit, adipisci, magni, aspernatur",248.79,False,Plato fuerte,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+4a456d05-93e9-493e-b2b5-9fd7ecc5c92e,Dolore,Aliquid dolorum repellendus.,"aliquid, ipsum, iste, facere",107.43,True,Postre,98024bcb-b9fb-463f-9990-4e337d780ce2
+51f5904a-e93a-463a-94a8-95886f5d47a6,Fugiat,Provident cupiditate numquam eveniet.,"incidunt, molestiae",187.01,True,Plato fuerte,b3e006c6-cce9-46e5-bb29-d23d927087ae
+ad4e10a9-faab-44b6-b9a5-fd83926d9575,Molestias,Enim perspiciatis necessitatibus facilis laborum laudantium voluptatibus.,"voluptatem, dicta",86.92,False,Entrada,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+7588f23a-c6b7-4790-bfda-80df8cb0fd1b,Maiores,Eum odio perspiciatis veritatis iusto temporibus assumenda qui.,"repellat, odit, mollitia, repellendus",212.34,False,Postre,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+31cf9c4a-7a18-48fa-969a-ed5ba3c0ec79,Enim,Quos reiciendis molestias neque repellendus tempore.,"voluptatum, hic",258.21,False,Entrada,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+20a79368-5b6d-44fa-a2a5-b78987986e61,Cum,Quasi aliquid exercitationem ea pariatur ab facere.,"nisi, corrupti, rem, sint",160.77,False,Plato fuerte,c0763211-373e-4800-866f-842361d899ff
+0e3b45ba-94d8-4810-8df9-cbd93e038e1f,Incidunt,Porro provident ullam molestias.,"aut, commodi, officiis, pariatur",69.12,True,Bebida,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+c2151f88-8af1-4fb5-9db4-cccc1231093a,Adipisci,Ea ipsum culpa fugit veniam a.,"necessitatibus, omnis, nulla, unde, commodi",162.07,True,Bebida,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+5e2b46d2-edae-4402-a908-30376b7a833c,Delectus,Cumque a molestiae ipsum.,"reiciendis, ea, consectetur, facere",270.91,False,Postre,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+37fa11df-090b-44d4-92a7-9eb9f8046614,Nisi,Rem rem necessitatibus recusandae.,"animi, excepturi, nemo, earum",193.55,True,Bebida,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+8ea9535c-9621-4c89-afbc-b226b0353548,Laboriosam,Esse rerum consectetur accusamus omnis numquam ab.,"consequuntur, commodi, soluta, provident",270.41,False,Plato fuerte,29c96df6-7e78-4a49-8404-04503a2941d8
+37a658b3-6646-4aee-9ed5-d8a66d55f441,Veniam,Maiores adipisci incidunt voluptates corporis consequatur aliquam.,"magni, eum, neque, dolor",251.12,True,Bebida,3bff8b7e-6c3a-4b98-b328-8857513627a4
+e36abe53-5332-4920-be5d-3c5a3947af31,Voluptatibus,Veritatis quia sapiente assumenda consequatur.,"quas, voluptates, quo, praesentium",203.86,True,Bebida,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+bc5f9f57-ee61-4f08-9a4e-73538a1cc133,Repellendus,Ipsa delectus deserunt animi magni esse corporis.,"animi, nam, rem, quisquam",250.29,True,Bebida,f3583c42-ecf7-45ef-af01-9a38abf25226
+c727dde1-f34f-44a8-9f17-f9b89acfd228,Dolorum,Fugiat perspiciatis natus.,"voluptate, voluptates, reprehenderit, magni, voluptatum",241.57,True,Bebida,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+e3e10dc3-a605-4ff7-a1bc-94ba82779b10,Odio,Error molestiae hic impedit perspiciatis.,"ipsa, esse",298.66,False,Bebida,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+5d495006-c7e0-4ee4-a439-07f9bd58d129,Labore,Odit aspernatur unde dolorum voluptates magni.,"harum, quisquam, culpa",79.81,False,Postre,8a349e05-7c9d-43b8-acde-60136f98f69d
+319ff9c1-4f14-45cf-8daf-e192bee0daf7,At,Blanditiis repellendus unde modi accusantium fugit unde numquam.,"quam, nemo, perspiciatis, nemo, consectetur",164.81,True,Postre,cc47b120-18c5-41ac-8e03-a30db1bf3290
+adae02d6-c00d-4c9d-a8db-cbe62f573a44,Sed,Illo distinctio nulla possimus.,"numquam, neque",296.66,True,Entrada,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+784e0ccd-3345-4737-a667-6f42d6b50ef9,Velit,Ea totam quas eum.,"voluptatum, voluptate, similique, quas, ex",209.68,False,Postre,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+ba9853d7-bf03-4ef9-afeb-bab32b871e58,Pariatur,Reiciendis nesciunt et quod iusto dolore.,"hic, molestias, voluptas",168.23,True,Postre,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+ffe16a4e-b819-4c51-a440-8714877a9541,Nostrum,Rem nihil facere aut.,"provident, vero",121.93,True,Entrada,98024bcb-b9fb-463f-9990-4e337d780ce2
+4e72266f-c94b-4c20-a0d0-52208dd8f557,Placeat,Repellendus architecto harum hic.,"est, nemo, vero, reiciendis, laudantium",110.59,True,Entrada,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+e74af2b1-dce9-49ce-8173-86a15bbb48d4,Voluptates,Consequuntur tempora maiores perferendis amet nostrum sint.,"reiciendis, ea, praesentium, dignissimos",212.69,False,Entrada,3bff8b7e-6c3a-4b98-b328-8857513627a4
+7adf5468-ba1e-47d6-8534-05b69591004d,Sapiente,Cumque eum architecto necessitatibus commodi repellendus.,"quaerat, ipsa, magni",270.3,False,Bebida,8b911534-9c79-4f64-86b7-396560087ea9
+318735e7-41cb-420c-8749-095c30ecedfe,Magni,Ipsa veritatis sequi.,"sint, amet, commodi",102.55,False,Entrada,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+730b52c8-a4dc-46d5-8e73-8244730f665d,Sequi,Et non ab id facilis reprehenderit quia.,"aspernatur, quae",66.0,False,Bebida,6826f206-4b96-4a1a-8eff-809cabb06a53
+6a48bcd6-8cc4-4aa0-a406-b4042ffa6bb2,Dignissimos,Reiciendis iste dolorem fuga.,"ut, cumque, voluptates, saepe, est",276.6,False,Entrada,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+a81ed9a5-ca29-431d-a61a-d9583b84822a,Incidunt,Nesciunt architecto officiis qui.,"necessitatibus, mollitia",196.01,True,Entrada,320d825e-799a-42bf-975b-b541c93996f2
+671d1109-53b6-4a09-9b61-cad06f88903a,Laudantium,Aperiam numquam magni tenetur facilis vero.,"odit, possimus, id",223.48,True,Postre,019e945b-528a-47de-a30a-2cebf5a9bee0
+ed05a685-a201-44f5-928c-277080c4ddd1,Rerum,Soluta quo unde unde.,"eum, velit, vel",58.51,True,Postre,09000c09-72ba-4ecd-83a7-6bd602e0a610
+7afe0ebe-26ea-4f63-a6bd-4e771fca7514,Amet,In minima recusandae odio.,"earum, ducimus",197.76,True,Plato fuerte,3bff8b7e-6c3a-4b98-b328-8857513627a4
+c422981f-e591-449b-b4c7-bac0c439254a,Aliquid,Magnam ullam quos repudiandae ullam magni porro.,"quidem, placeat, aperiam",135.4,True,Postre,c466af74-7bb7-4398-944b-6a49a69f3146
+c0838e21-5155-4ef7-b896-cd86706f6532,Ut,Aperiam iusto quis.,"temporibus, quia",250.85,True,Entrada,ace95a4f-247a-4338-9bd9-589d5ea1183e
+b64e5d3c-88ad-4626-8b68-03ff2b262d9b,Quis,Labore recusandae nulla corporis architecto quis.,"consectetur, adipisci",152.66,False,Bebida,6826f206-4b96-4a1a-8eff-809cabb06a53
+f8da4720-ae98-45c4-9377-2028d34084d1,Quasi,Adipisci placeat est.,"ullam, quidem, libero",254.67,False,Plato fuerte,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+9c6a7b8e-250f-471b-9eb6-75c4d95c9b80,Tempore,Quia tenetur neque debitis nobis.,"praesentium, consectetur, quaerat, ea",58.49,False,Plato fuerte,b3e006c6-cce9-46e5-bb29-d23d927087ae
+0b740ec2-cb14-4311-bba3-cd5352f97716,Iusto,Aliquid alias asperiores recusandae quis accusantium quaerat praesentium.,"iste, animi, illo, consequatur, molestiae",79.17,True,Bebida,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+28418ce9-ad36-461c-9082-7efbc4c30615,Dolores,Quidem deleniti corrupti.,"architecto, at, aliquid, earum",63.05,False,Postre,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+815b3848-a5aa-4220-8527-20cbeffd51c7,Numquam,Ad corrupti quo fugiat.,"aut, suscipit, fuga, adipisci, ipsa",96.21,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+d637ee28-0cac-4163-9e7e-1ed1f801b1ed,Error,Enim fugit optio dolore.,"nostrum, laboriosam",125.54,False,Entrada,86a831ab-700f-4a89-885f-8d3c7bfdda59
+65fbf61e-2690-4a49-b695-81fe012eb230,Numquam,Quae ratione beatae illum eius totam.,"delectus, necessitatibus, quibusdam, eaque, saepe",235.95,True,Entrada,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+58702240-cd0b-485c-bfa3-54304a1eef83,Iusto,Totam deserunt aut dolorem quidem nesciunt distinctio.,"voluptatibus, amet, eligendi",228.07,True,Postre,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+24037b6d-9479-475b-a21c-720c33bae09c,Omnis,Similique totam placeat dignissimos dolor.,"saepe, iure, in, debitis",81.4,False,Bebida,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+4ed9396a-1d04-453e-80df-c8a18f3de8a3,Nostrum,Sit error odio voluptates occaecati earum.,"sequi, voluptas, nostrum, optio, sequi",107.16,True,Bebida,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+e6b33f86-d1a8-4e65-b2a6-16a3b8c52090,Facere,Dolores ut quia iure deserunt doloremque.,"nisi, dignissimos",266.39,True,Entrada,e1d9d489-791f-4871-bae6-e192795eda75
+1c57a7b2-a3fb-4c7f-b5ee-51fc0aa3b960,Eveniet,At vel molestias cumque.,"cum, rerum, omnis, impedit, ducimus",280.29,False,Bebida,8a349e05-7c9d-43b8-acde-60136f98f69d
+58e80ffd-1042-4ff4-a844-7666a7dc941f,Neque,Impedit quisquam consequatur facere temporibus ipsum.,"officiis, est, nihil",151.22,False,Bebida,b99c0c09-5047-4296-8139-acfde3571c98
+e2e427df-9666-4101-b311-8283a6f57de8,Illum,Dolor aspernatur unde quod porro neque porro perferendis.,"quo, optio, deleniti",253.14,True,Plato fuerte,29c96df6-7e78-4a49-8404-04503a2941d8
+cc540dd0-e6c6-4bab-bdd3-6b2ff6350265,Placeat,Et asperiores aliquid possimus et repudiandae repellendus consequuntur.,"necessitatibus, quia, at, officia",188.4,False,Entrada,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+002d5944-94ad-4944-8880-ebf25418403d,Nobis,Tempora earum eius quia vero atque iusto perferendis.,"quia, porro, pariatur, voluptate, iusto",69.35,True,Bebida,c0763211-373e-4800-866f-842361d899ff
+46d62e75-d611-44e6-a97c-ec01044e9342,Commodi,Blanditiis tenetur incidunt.,"fuga, ab",55.28,True,Postre,8a349e05-7c9d-43b8-acde-60136f98f69d
+471f374b-f848-4775-b451-6abac66d2593,Eveniet,Quod facere enim maxime odit dolorem.,"sequi, molestias",99.75,True,Entrada,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+55ba73d4-bed4-4eac-ae65-c727405ad99b,Consequuntur,Repellendus exercitationem ad voluptatibus.,"architecto, sed, voluptatem",72.4,False,Entrada,86a831ab-700f-4a89-885f-8d3c7bfdda59
+0c31ce5c-3a5c-4cdb-b611-e731d436221f,Asperiores,Pariatur officia mollitia.,"deleniti, in, amet",168.36,True,Entrada,e1d9d489-791f-4871-bae6-e192795eda75
+9785d343-97fa-40f7-bdda-4ff333369790,Fugit,Quia ratione voluptates a.,"deleniti, consequuntur, veritatis",104.37,False,Entrada,2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195
+7f6f3311-c358-4d95-a75f-1b51eb42a541,Eaque,Tempora at rem optio.,"totam, magnam, accusantium",153.24,False,Plato fuerte,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+6a20c2bb-36aa-4ab2-9b1b-cfca7b14d201,Labore,Eius reiciendis temporibus ad delectus necessitatibus.,"maxime, maxime, natus, deleniti, sequi",220.08,False,Postre,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+1ccb61c6-037e-4a3a-a10d-fa3491a1e555,Sapiente,Distinctio magnam reiciendis officia numquam.,"illum, quod, expedita",226.1,False,Postre,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+d0cf24e2-604f-4566-96a5-3c656d8dbb14,Asperiores,Aspernatur molestiae quaerat explicabo provident saepe.,"inventore, repellendus, sit, minima",146.03,True,Postre,8b911534-9c79-4f64-86b7-396560087ea9
+22de1757-66bc-45d0-9925-c68838ffc876,Ab,Quas sed ullam nemo corporis dignissimos.,"maiores, minima",97.89,False,Entrada,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+225935dc-e9e2-497a-a5a0-e0edf958331f,Corrupti,Magnam nobis tempora facere aut.,"iste, odio, quibusdam, magni",172.59,True,Postre,2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195
+e20f6036-3a29-4e14-9998-dc04258d7c84,Accusamus,Quidem optio nisi repellat distinctio nostrum.,"deleniti, expedita, aut, facilis, labore",217.37,True,Entrada,f3583c42-ecf7-45ef-af01-9a38abf25226
+53cf3221-6f59-48a0-87ed-894d8cbcb605,Nobis,Optio dolorum quibusdam rem fugiat.,"explicabo, placeat",125.16,False,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+abc12b24-304a-48e8-8024-64986b93e20b,Rerum,A deserunt quos ex reprehenderit modi qui.,"dignissimos, sunt, doloremque, omnis, magnam",132.5,True,Entrada,c466af74-7bb7-4398-944b-6a49a69f3146
+86089162-dcd1-4832-bfb4-259def7bb8b6,Mollitia,Voluptatibus optio velit illum pariatur velit reprehenderit.,"corrupti, dignissimos",96.5,True,Entrada,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+fcddb791-ca43-4053-8b5e-c9f1dfbec696,Nostrum,Accusantium aspernatur rerum accusamus delectus voluptatum.,"atque, accusantium, animi, eum",148.05,False,Entrada,db35b05e-14d7-42eb-8447-a58d66cca801
+539300fc-8292-44b3-9b01-9b830bf9d01f,Animi,Ullam minima vel hic.,"esse, quia, modi",79.81,True,Entrada,6f577405-1c44-47a7-8eac-44d7ea038299
+881c7221-62ee-4750-ad06-ae60c964c6f0,Animi,Minus quidem aut perferendis fugit accusamus quis.,"eius, ipsum, delectus, eius, in",179.91,True,Postre,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+8842cc32-9703-4192-a2a0-e1695d18367c,Ducimus,Atque nobis iste.,"repudiandae, quae, reiciendis, tenetur, libero",51.96,True,Postre,09000c09-72ba-4ecd-83a7-6bd602e0a610
+ebf8fc93-7a08-48d3-bf2e-5019af0a8762,Fuga,Sed ipsa itaque adipisci.,"quaerat, delectus, cum",137.69,True,Plato fuerte,3bff8b7e-6c3a-4b98-b328-8857513627a4
+243f77c7-c876-48d9-8885-5388c1939860,Cum,Eaque facere quidem corrupti.,"debitis, voluptas, nesciunt, accusantium, voluptatem",140.21,True,Entrada,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+35d2e9ee-8c1f-4f62-a680-7998d4a8004e,Inventore,Enim et aliquid omnis ratione hic excepturi nulla.,"atque, laboriosam",247.62,False,Bebida,29c96df6-7e78-4a49-8404-04503a2941d8
+aa42fafe-4cca-40e9-9473-72467dbf9c61,Sapiente,Laboriosam nam a odit ratione.,"est, dolor, sapiente",264.54,True,Bebida,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+a845a7a9-7a2c-4992-b1c1-76c55e1a6f25,Corporis,Dicta earum nobis enim cum.,"illum, eos",267.01,False,Postre,df94e915-aabb-4df3-9947-a0a4633c2666
+59237a74-e329-4f10-a254-1399a7d89da4,Sunt,Ducimus possimus id rerum laudantium.,"corporis, ipsum, enim, magnam, aperiam",135.4,True,Plato fuerte,b3e006c6-cce9-46e5-bb29-d23d927087ae
+ebdb401b-c947-4b20-8941-f1a5df5bb476,Mollitia,Suscipit aperiam fuga labore.,"corporis, rem, aliquid",287.54,False,Plato fuerte,8a349e05-7c9d-43b8-acde-60136f98f69d
+0b678943-c87c-44dd-9645-5e4e9670f8d0,Nostrum,Voluptates quo recusandae quidem alias.,"libero, asperiores, consectetur, ut",100.6,True,Postre,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+0d3a254f-a011-419e-ae1e-2963ef23cc78,Possimus,Ab minima eligendi voluptas enim error.,"harum, aliquid, suscipit, veniam",131.48,True,Postre,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+5078cd71-6a60-4e89-b538-95608495561d,Distinctio,Nihil iusto eveniet minus quam placeat earum.,"eos, at",181.55,False,Bebida,a4fd99c5-0060-4207-9cc0-879563a72484
+401d77ae-650e-48eb-9edc-c344b13554ff,Minima,Nisi fugiat explicabo sequi facere.,"nemo, blanditiis, deleniti, deserunt, dicta",117.88,False,Bebida,019e945b-528a-47de-a30a-2cebf5a9bee0
+0993865b-6232-4240-b791-39095a280404,Aliquam,Doloribus hic qui deleniti itaque dignissimos.,"quia, itaque, in",176.39,True,Plato fuerte,3bff8b7e-6c3a-4b98-b328-8857513627a4
+1f041d16-3243-4534-83a0-77bffc14f37d,Explicabo,Reiciendis dignissimos maxime deserunt nam.,"odit, ratione, quos, doloremque, id",116.88,False,Bebida,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+8df7a507-8661-408b-8d0e-5ac33bf1964b,Consectetur,Commodi quod atque.,"expedita, sint, odit",249.98,False,Bebida,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+03077118-6805-4d4b-8148-44249c540029,Eveniet,Voluptate atque voluptas veritatis.,"incidunt, maiores, cum, fugit",280.64,True,Plato fuerte,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+c3914b29-865d-4732-be47-c2825aa89132,Veritatis,Consequatur eum ab.,"vero, similique, iure, exercitationem, quaerat",237.9,False,Postre,cc47b120-18c5-41ac-8e03-a30db1bf3290
+37fdd20d-a6ed-493a-83ca-2df01d95e2d4,Molestias,Maxime occaecati natus labore atque delectus reprehenderit.,"laborum, necessitatibus",131.39,False,Plato fuerte,72a40609-2c3e-4acd-9922-561967e70b81
+3e5e5987-36b7-4450-a108-689532534a55,Ab,Saepe illum enim.,"ab, enim",115.56,False,Postre,86a831ab-700f-4a89-885f-8d3c7bfdda59
+b3e10db7-0b61-4fae-8075-663852087f33,Laudantium,Rem dolorem optio esse sapiente possimus iste cumque.,"est, eum, saepe, occaecati, corporis",268.51,True,Bebida,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+52374a5b-d1d6-4d58-9705-7149b42bbe35,Facilis,Natus harum corporis dicta.,"deleniti, possimus, officiis, quasi",129.84,True,Bebida,f3583c42-ecf7-45ef-af01-9a38abf25226
+168be59a-2fde-4394-8db5-a060985cad39,Illo,Deleniti nemo placeat magnam quis error.,"accusamus, sequi, eos",262.82,True,Postre,db35b05e-14d7-42eb-8447-a58d66cca801
+034a2e67-813f-4b1c-b1de-8962558e9cc2,Porro,Quaerat tempora laboriosam.,"numquam, odio, perspiciatis",60.97,True,Entrada,29c96df6-7e78-4a49-8404-04503a2941d8
+90374037-e81d-4fe9-98fc-49e458c08502,Quos,Autem quae rerum.,"quibusdam, maiores, consequuntur, iure",246.21,False,Plato fuerte,db35b05e-14d7-42eb-8447-a58d66cca801
+48168fad-51c4-4766-a48d-48ab00947a6e,Aspernatur,Voluptas molestiae alias perspiciatis commodi officia.,"enim, odit",204.79,False,Postre,cc47b120-18c5-41ac-8e03-a30db1bf3290
+e4dfbb3b-ba86-408b-92c3-e702f138b607,Aspernatur,In repudiandae impedit veniam recusandae fugit pariatur.,"quas, vitae, impedit",156.16,True,Plato fuerte,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+cb3757f0-e7a4-4dc1-889e-aadc17cf2f85,Incidunt,Sit corrupti dignissimos deserunt.,"quae, voluptates",287.31,False,Plato fuerte,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+f10fd8b8-f632-40b7-a0c0-2e21e4c25ea8,Nisi,Ratione magni aliquam maxime.,"dolore, quia, deleniti, quia",128.97,True,Plato fuerte,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+8f4d533d-0ad8-4c71-852e-ede38f5450ba,Nesciunt,Eveniet dolores possimus architecto nisi illo.,"ipsa, praesentium, iusto",223.68,True,Plato fuerte,a4fd99c5-0060-4207-9cc0-879563a72484
+9bf9e2ea-5125-482e-abce-0f78195c0800,Totam,Perspiciatis exercitationem corporis iure aliquam illo.,"mollitia, a, cupiditate",213.21,False,Plato fuerte,6f577405-1c44-47a7-8eac-44d7ea038299
+cd49d265-8222-4714-b1a7-3a40ded202b2,Perferendis,Vitae accusamus accusamus ex minus quo.,"vel, voluptatum, occaecati, consequatur, odit",200.84,False,Plato fuerte,09000c09-72ba-4ecd-83a7-6bd602e0a610
+6fcc404b-18b5-4e03-9075-cc64ba33eaf7,Exercitationem,Incidunt commodi fugiat eius.,"ipsum, esse, facilis, blanditiis, laudantium",108.77,False,Postre,019e945b-528a-47de-a30a-2cebf5a9bee0
+14dae227-83c5-4ee9-9bc1-ab4a3d43a951,Iste,Repudiandae vero et at.,"magnam, voluptates",192.8,False,Entrada,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+a2372b25-e91a-49c8-a463-8d588b264e61,Maiores,Iusto cumque enim magni.,"voluptas, consequuntur",80.85,False,Postre,8a349e05-7c9d-43b8-acde-60136f98f69d
+1539972c-cbf5-4edf-af57-956cbbcee25c,Quos,Nisi ullam dolorem aspernatur beatae aperiam.,"iusto, repellendus, cupiditate, quisquam, tempora",72.19,True,Bebida,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+dae8985f-8099-4a81-a2ff-fc6315844d03,Modi,Sunt laudantium inventore nostrum corporis omnis.,"asperiores, expedita, reprehenderit",163.81,False,Entrada,b99c0c09-5047-4296-8139-acfde3571c98
+9eaabfb8-afa0-4176-968e-fe493282f637,Fugit,Dolorem provident nostrum nam ex nihil.,"illo, eligendi, saepe, accusantium, nam",283.99,False,Plato fuerte,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+a39483bc-f49f-4bb6-8b5a-f3680e849eb2,Quod,Dolores quae odit laudantium.,"optio, placeat, quod",104.29,True,Plato fuerte,09000c09-72ba-4ecd-83a7-6bd602e0a610
+7191cac8-5bb4-4b17-ba2f-908588bf8925,Labore,Accusamus necessitatibus nam provident id et incidunt.,"aliquam, culpa, impedit, consequatur, adipisci",160.11,False,Bebida,29c96df6-7e78-4a49-8404-04503a2941d8
+fe97903d-d030-4987-a1fb-b01e5145d444,Quae,Doloremque provident est quaerat numquam.,"expedita, quibusdam, eveniet, voluptatum",170.88,False,Bebida,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+a687f019-e800-4b41-bb6e-7099a332919e,Fugit,Magnam blanditiis deleniti ipsum laborum molestiae magni.,"asperiores, cupiditate, ad",116.27,True,Bebida,72a40609-2c3e-4acd-9922-561967e70b81
+a94c01de-0422-498a-9985-f2ddef359cc5,Doloremque,Mollitia praesentium quam odio rem nulla quasi.,"laudantium, exercitationem, sint, accusantium, totam",165.22,True,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+4ce0a54b-f0eb-41bb-b754-e3e5b4b762ce,Placeat,Veniam natus error.,"libero, rerum",212.08,True,Bebida,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+2d4db84f-d130-4699-80f1-89f64f779aae,Voluptatem,Delectus impedit autem aut minima.,"voluptates, doloremque, numquam, veritatis, corrupti",187.41,True,Plato fuerte,c466af74-7bb7-4398-944b-6a49a69f3146
+b09faccd-854c-4731-9b96-4b4da4c70ec6,Dolor,Adipisci quam tenetur laboriosam.,"suscipit, dolor, voluptas, pariatur",205.87,True,Bebida,a4fd99c5-0060-4207-9cc0-879563a72484
+28617888-2cb2-43b0-bde3-f10ee67e7059,Sapiente,Perferendis commodi debitis ad corrupti.,"laboriosam, sequi, temporibus, assumenda",73.81,True,Plato fuerte,2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195
+e04910a6-943e-4c3d-a467-2ba6c56d9419,Placeat,Commodi sit minus dolore maiores veritatis.,"iste, culpa, dolor",196.17,False,Plato fuerte,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+89f4c230-41ff-4d60-8330-37f37a1894c7,Fugiat,Tempore minima similique in vel repellendus.,"similique, suscipit, velit",190.24,True,Postre,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+53952420-5db4-421d-863f-41cbd077ca61,Cum,Totam accusantium in voluptatem dolore quibusdam in.,"veritatis, ut",210.85,True,Plato fuerte,e1d9d489-791f-4871-bae6-e192795eda75
+c4f4ff32-8137-4fcc-ac4e-cc928b8ffa1f,Modi,Alias quia quam ullam.,"omnis, cum, omnis",163.56,True,Postre,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+70a004bd-33f8-4340-b489-326fcb18e4c6,Consequatur,Dicta inventore illum vitae perferendis corporis rerum.,"doloremque, odit, assumenda",245.57,True,Plato fuerte,320d825e-799a-42bf-975b-b541c93996f2
+5b6bd372-3b07-4ed0-ac27-cee4557e674f,Similique,Quia magni possimus tempora.,"repudiandae, consectetur, molestiae",183.59,True,Plato fuerte,ace95a4f-247a-4338-9bd9-589d5ea1183e
+63a02ed8-3b1e-46b6-bd71-38b693fbfd06,Saepe,Possimus fugit nemo.,"est, ipsa",263.17,False,Entrada,8a349e05-7c9d-43b8-acde-60136f98f69d
+25a4ffe6-5f66-46ac-9274-00246417f53f,Nesciunt,Veniam temporibus ex.,"unde, debitis, repudiandae, totam, consectetur",229.01,False,Postre,320d825e-799a-42bf-975b-b541c93996f2
+dc8a7ac2-6175-4050-a529-56edb31da3e0,Dolores,Facilis nemo molestias vero.,"neque, facilis, modi, repellat, ad",276.7,False,Postre,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+25702fe1-f6d9-4bd7-a818-b93d5eecc691,Ducimus,Dolorem dolor veniam nihil quidem consequuntur.,"ad, sit, repellendus, nihil, esse",71.98,True,Bebida,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+991fba1f-2703-46f4-98bb-0382abc01953,Dolorum,Omnis soluta velit quos ipsum facere dicta.,"totam, error",196.0,False,Bebida,019e945b-528a-47de-a30a-2cebf5a9bee0
+34d0d5ca-afca-419d-9c11-ac7ee4f6271b,Impedit,Officiis reprehenderit autem quam quae culpa tenetur.,"iure, dignissimos",77.1,False,Entrada,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+00619e79-b60c-4e8b-bee8-45891e5792a6,Placeat,Numquam officiis corporis fugit molestias quos dolorem ullam.,"quidem, autem, recusandae, doloribus, ab",294.9,False,Entrada,df94e915-aabb-4df3-9947-a0a4633c2666
+e325ec70-ec5a-46b3-a366-18631bc4e492,Sed,Quos aliquid accusantium.,"eveniet, esse",170.76,False,Plato fuerte,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+a604b80d-7f37-46d0-8f69-b7fc3e7cbc5c,Dolore,Incidunt id amet molestias ea ipsum aliquid repudiandae.,"veniam, optio",213.24,False,Bebida,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+845bb59e-3763-4848-872b-867e29266fde,Quaerat,Quas perspiciatis exercitationem libero.,"reprehenderit, nam, ipsam",155.28,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+876dbdcf-3034-4d88-bbc2-9484bcb7ce21,Id,Vel aliquid dolore omnis quisquam architecto distinctio.,"illum, sint, accusantium, aliquam",277.51,True,Postre,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+e3895bf4-82b7-445f-8e20-b707b949288e,Quod,Molestias assumenda modi illo tempore labore.,"numquam, placeat",297.22,True,Bebida,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+71a15476-3993-4d64-a817-2339ffe9ed84,Dolores,Sint porro explicabo.,"dolor, autem",88.48,False,Postre,320d825e-799a-42bf-975b-b541c93996f2
+1556879c-4a4f-460d-b8a8-6aed232db200,Totam,Eligendi animi expedita.,"earum, fuga, libero",265.73,True,Plato fuerte,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+02b9ac87-d46f-42d9-aa88-1ecfaf02448e,Quae,Corporis voluptate eos iure reprehenderit itaque.,"quas, sunt, vero",120.32,True,Postre,6826f206-4b96-4a1a-8eff-809cabb06a53
+17c35e6e-a227-42bb-87ce-b48dea0c48ba,Eum,Ea alias temporibus accusantium tempora dicta.,"possimus, voluptates, iusto, officia",87.4,True,Bebida,32a63a8e-c480-4d15-82ce-196c13bd2970
+b6171e89-6d4e-46ef-86d0-a86dfba62770,Nesciunt,Eius quam voluptate placeat.,"cumque, ab",79.97,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+3357a2ce-d498-42bc-8cbe-6739f635130e,Sit,Iusto quam culpa repellat voluptate ratione.,"omnis, suscipit",147.21,True,Bebida,e1d9d489-791f-4871-bae6-e192795eda75
+eedd0f6e-2722-49c4-91e8-c74e0efb1df2,At,Perferendis delectus voluptates optio.,"harum, saepe",230.66,False,Postre,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+a915ee0b-b9c1-4c0b-bb9d-ab36094fcc36,Consectetur,Cum officia assumenda ad nobis laudantium.,"earum, sint, commodi",131.16,False,Entrada,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+6000ba85-2b7d-40eb-91a0-b780a8373838,Est,Suscipit libero vero placeat.,"at, magni",92.25,True,Postre,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+c3632173-e465-4ded-b0d6-3fb04db3fa43,Quae,Tempora delectus officiis modi architecto rerum sit.,"amet, necessitatibus, veritatis, repellat",142.19,True,Plato fuerte,a4fd99c5-0060-4207-9cc0-879563a72484
+d4812556-d89f-4a1c-855e-536388e0548e,Dolore,Sed provident temporibus facilis ipsa esse distinctio culpa.,"iure, accusantium, nam",248.69,False,Plato fuerte,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+6414b635-bb27-4714-bb54-1b621fe1255c,Repellat,Alias velit nesciunt beatae.,"quod, unde, rerum",126.65,True,Postre,98024bcb-b9fb-463f-9990-4e337d780ce2
+5a5d57a4-b68f-4682-8a3e-1216047150b3,Amet,Minima inventore ipsa accusantium nostrum voluptas reiciendis.,"eligendi, cumque, dolorem, eligendi",209.58,True,Bebida,b3e006c6-cce9-46e5-bb29-d23d927087ae
+d472fe9a-f093-46c0-a6a6-9f9919dbfb4c,A,Molestiae temporibus praesentium asperiores.,"quidem, adipisci, dolor, odio",84.32,False,Plato fuerte,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+793b7445-9969-42da-8968-49915a0e39d3,Tempora,Tempore asperiores non earum.,"nesciunt, maxime",87.88,False,Postre,320d825e-799a-42bf-975b-b541c93996f2
+759f5c24-6686-44e1-806a-9d17abbff2e9,Impedit,Nobis esse nisi repellendus.,"reprehenderit, perspiciatis, reiciendis, adipisci, veritatis",286.07,True,Entrada,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+eec4401a-0ade-4bb6-a6a7-8a567b8dffc2,Cumque,Possimus laudantium asperiores iusto quisquam quis veritatis nisi.,"facilis, voluptatibus, itaque, modi, amet",182.11,True,Bebida,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+f84e4f57-eb78-45fd-9023-304d48efdd15,Voluptatibus,Voluptatum eos rem nemo id.,"expedita, vero, ullam, corporis, sint",230.51,True,Entrada,b3e006c6-cce9-46e5-bb29-d23d927087ae
+89ca1fc9-55a8-4d64-a4bf-15eea95677dd,Ut,Expedita maiores laboriosam mollitia adipisci.,"quas, repellendus, accusantium, pariatur, voluptatibus",121.96,False,Bebida,6826f206-4b96-4a1a-8eff-809cabb06a53
+f1137c99-6ad0-440a-8b8c-ad8b20365fd5,Temporibus,Omnis tempora non fugit fuga voluptatibus.,"delectus, veniam, corrupti",198.65,True,Plato fuerte,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+072dffdf-600a-435b-b75e-c8fd2d865342,Est,Impedit nesciunt culpa distinctio dicta deserunt.,"autem, nostrum, aliquid, labore, omnis",263.88,True,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+e7981bba-16cc-437e-b888-ffc6c0a82eb7,Tempore,Hic magni inventore possimus deleniti optio.,"vel, sed, totam, repellendus, quam",243.1,True,Bebida,3bff8b7e-6c3a-4b98-b328-8857513627a4
+8490269e-fe43-46f4-9deb-2b1477fe7654,Nemo,Accusantium exercitationem eos maxime reprehenderit atque maxime.,"optio, ducimus",187.78,True,Bebida,32a63a8e-c480-4d15-82ce-196c13bd2970
+04bdd6b9-0bad-473d-92c9-fc895fee775b,Sed,Accusantium eveniet reprehenderit quo dicta.,"rem, at, esse, veritatis",272.59,True,Plato fuerte,6f577405-1c44-47a7-8eac-44d7ea038299
+d45dc0b7-346d-445d-9729-5ce3a7fadb40,Eos,Ab aliquam debitis optio eos distinctio.,"nulla, totam, voluptas",231.99,True,Plato fuerte,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+ab207473-1915-4a4d-86b1-9632a6e8adf1,Saepe,Placeat ab in quae porro provident voluptatum.,"iste, est, odio, cumque, quae",63.2,True,Bebida,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+845a6700-21ae-4bf5-9142-3641f6e06d7e,Facere,Ut soluta illo dignissimos qui.,"repellendus, magnam, temporibus, quod, eos",279.12,False,Postre,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+dcdb992d-6c60-4c88-9996-4309d6634524,Cumque,Vel excepturi magni delectus deserunt quia odio.,"doloribus, eveniet, odio",273.41,True,Bebida,6f577405-1c44-47a7-8eac-44d7ea038299
+e434c65c-3a70-4114-84e7-76593fd22356,Veritatis,Voluptatum dolorum vero quasi excepturi minima voluptatum eveniet.,"voluptas, pariatur, minima, minus, qui",50.28,False,Entrada,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+1c4153b4-773c-47fb-bc8c-2d36dedf5bb4,Esse,Dolorum accusantium occaecati error inventore ut commodi.,"illo, quas, fugit",259.68,True,Bebida,8a349e05-7c9d-43b8-acde-60136f98f69d
+0c1e9e2e-6a29-46f0-98ea-02d4af216933,Odio,Aliquam earum consequatur.,"assumenda, necessitatibus",128.9,False,Postre,32a63a8e-c480-4d15-82ce-196c13bd2970
+9face506-2dc5-49e3-917b-1e6c54374279,Ipsum,Aut occaecati ullam impedit adipisci molestias cupiditate.,"velit, nihil, quas, quod, cum",140.77,True,Postre,c0763211-373e-4800-866f-842361d899ff
+fbd98d84-be85-46a2-ae41-31eb6116b295,Labore,Repellendus dolor facilis unde.,"placeat, dolore, delectus",79.58,True,Bebida,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+280f77f7-4460-4db7-b655-d908327ff608,Facilis,Voluptas quas amet quaerat ut hic perspiciatis.,"illo, nobis",203.11,False,Entrada,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+31cef3be-48d8-4219-8b69-1f81506cda85,Tempore,Accusantium sint eligendi quae.,"dolores, consequuntur",254.48,True,Entrada,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+93ed98da-e894-41fa-909b-3a2d1945f114,Eos,Totam veniam ratione ullam aut.,"itaque, soluta, natus, esse",135.4,True,Entrada,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+a61d7817-ec2c-46bf-bf8f-b4fbfa1105cd,Magnam,Animi deleniti velit quos.,"eveniet, inventore, eligendi, ipsam",285.25,False,Postre,019e945b-528a-47de-a30a-2cebf5a9bee0
+9de90da7-09e7-4e85-a795-4139c460ef99,Laborum,Dolor recusandae provident.,"harum, inventore, quisquam",207.66,True,Postre,6f577405-1c44-47a7-8eac-44d7ea038299
+5664710d-8266-4a5d-b0b5-4882772a296f,Ratione,Minima nisi sed quos temporibus porro saepe.,"animi, quaerat",252.12,False,Plato fuerte,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+6903892d-2bcf-4efc-91c8-60c3dc675b4d,Recusandae,Necessitatibus dolor quaerat quas.,"blanditiis, accusamus, in, veritatis, molestiae",252.39,False,Bebida,ace95a4f-247a-4338-9bd9-589d5ea1183e
+9e0321ec-2060-437a-86c2-8d9bc97cc37e,Fuga,Optio atque ea.,"totam, iure",208.12,True,Postre,86a831ab-700f-4a89-885f-8d3c7bfdda59
+bf3433f9-b336-4930-924e-25246417553d,Cumque,Eaque soluta ipsa non consectetur iste delectus.,"repudiandae, optio",254.45,False,Entrada,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+867b8f0a-b913-43e8-a773-35dfa5f4f4fb,Doloribus,Dolore perspiciatis quo sapiente.,"eum, aliquid",259.99,True,Plato fuerte,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+d51b225b-b9d5-485f-8cec-f5b7b4c85d71,Odio,Harum fugiat nulla enim labore exercitationem quaerat.,"molestiae, inventore",165.72,False,Plato fuerte,c466af74-7bb7-4398-944b-6a49a69f3146
+239d8b0d-2405-474b-bb69-f386c2ceab6f,Repellat,Dolorem dignissimos neque non.,"dicta, hic, harum, ab, laudantium",155.05,False,Entrada,29c96df6-7e78-4a49-8404-04503a2941d8
+2e218829-feed-4085-a06e-3458cc65f83f,Occaecati,Est ipsa voluptatum porro fuga quo sunt.,"aperiam, dignissimos, nemo, eius, quos",247.17,False,Plato fuerte,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+950d5605-b351-4f56-91fd-1625ef5d4687,Quas,Incidunt iste reiciendis quidem possimus aspernatur aperiam.,"facilis, nostrum",182.14,True,Postre,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+d9167346-db01-42f4-9e24-36abfc78aa62,Eius,Ipsum voluptatibus quo veritatis commodi.,"natus, dolorum, quibusdam",246.23,False,Postre,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+9ac6635c-fd23-4bce-be72-c6eed7f69ce9,Labore,Harum ea similique totam hic.,"repudiandae, cum, ex",237.04,True,Postre,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+563e8771-5e00-40d8-b4b4-390013370036,Esse,Aperiam nulla reprehenderit veritatis quae officia.,"quaerat, ratione, delectus, exercitationem, natus",118.51,True,Postre,b3e006c6-cce9-46e5-bb29-d23d927087ae
+b55fe610-1c29-461e-8ca0-7e029bacc7e9,Excepturi,Nihil voluptates officia necessitatibus.,"eius, cumque",286.42,True,Entrada,8b911534-9c79-4f64-86b7-396560087ea9
+4c8c7714-6a79-4673-b785-eaabf3e57f24,Corrupti,Similique dolorum veniam quibusdam cum.,"asperiores, velit, modi",110.59,False,Bebida,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+cfb3709e-b14a-4a86-a737-bef4653bdbe1,Veritatis,Alias cumque autem est inventore voluptatem.,"perferendis, nobis",193.23,True,Plato fuerte,320d825e-799a-42bf-975b-b541c93996f2
+855584f9-6281-4c7d-8710-3785b47c7e79,Neque,Explicabo ex magnam assumenda quae praesentium quos cum.,"sit, architecto, qui, reprehenderit, incidunt",132.9,True,Postre,df94e915-aabb-4df3-9947-a0a4633c2666
+e15e0993-d259-4b08-bdce-396ed7a0b106,Distinctio,Asperiores fuga nisi tempore.,"debitis, blanditiis, sequi",250.7,False,Plato fuerte,98024bcb-b9fb-463f-9990-4e337d780ce2
+d64e338b-32b9-4efa-983f-847f5ae63af4,Quas,Enim in quisquam dolore.,"voluptate, ab, debitis, eligendi",85.54,True,Entrada,09000c09-72ba-4ecd-83a7-6bd602e0a610
+b48e00f7-5798-488b-a36c-e0f98a20222c,Minus,Sit nemo aut corporis recusandae.,"magnam, ea, suscipit, dolores, voluptatum",137.11,True,Postre,db35b05e-14d7-42eb-8447-a58d66cca801
+33e7e275-520c-4413-845a-5c68957914dc,Dolores,Qui delectus dolores rerum.,"placeat, soluta",119.59,False,Bebida,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+6cf43717-5151-4c68-8d20-5b0a35f6266e,Delectus,Molestiae eum ea.,"culpa, corporis",121.63,True,Plato fuerte,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+15ac2c39-2aec-4b74-b13e-b38d69ba6edd,Dicta,Enim cum provident eius.,"voluptatum, voluptas, esse, id",112.98,False,Bebida,c466af74-7bb7-4398-944b-6a49a69f3146
+298a97b8-f73b-4d1e-aaf6-040aeba0022f,Delectus,Commodi vel dolorem ad quia quia temporibus ipsum.,"ipsa, labore, molestias, possimus, nulla",236.21,True,Plato fuerte,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+8947abfd-3f81-4787-8ff7-56c168382cc1,Illum,Saepe aut hic minus nesciunt.,"dolorum, libero, rerum",240.81,False,Entrada,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+f8761587-7866-41f9-ab47-188b9a50492d,Expedita,Ea exercitationem perferendis quas unde atque.,"placeat, ut, possimus",238.04,True,Postre,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+200f12f8-c6b2-492f-9da5-64b9c405e23a,Accusantium,Explicabo iusto ipsum nobis.,"eligendi, aperiam, minus",256.42,False,Postre,6826f206-4b96-4a1a-8eff-809cabb06a53
+9ae294a9-a9df-41d4-99da-0e4e8f4d0afb,Rerum,Quod placeat aliquid perferendis.,"officia, ea, voluptatum, nostrum",68.73,True,Bebida,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+a58fd9aa-6fb3-41fc-a451-eb7a96bd4665,Dolores,Voluptatibus earum sequi velit.,"iure, at, asperiores, quibusdam",215.12,True,Entrada,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+38d6b8b2-dc23-44cd-a993-726db6e2d1ae,Quidem,Ipsa dolorem ducimus at ut ipsa dolor.,"aliquam, quia, quo, eveniet",127.96,True,Bebida,31f203f7-58f1-40d6-aab5-7bbeb4fc9574
+ac175db2-8e12-4722-9692-67db553927b2,Omnis,Eligendi incidunt eum eaque maiores.,"provident, ullam, labore, magnam, aut",86.62,False,Postre,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+de9141ff-e7c9-4666-b4f4-ca5e558215b0,A,Distinctio vero molestiae hic.,"esse, nostrum, nam",199.28,True,Postre,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+98db3d97-accc-46a4-9671-d6f4894e9009,Eos,Repellat ad voluptatibus dolores.,"distinctio, iusto, magni, at, consectetur",166.71,False,Postre,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+f7be1d68-4846-42c8-b831-b51590df6129,Dolor,Illo odio odio quas.,"veritatis, sunt, delectus",229.18,False,Postre,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+cb97fa1b-43d4-4b19-880b-d07367322431,Vero,Provident consectetur hic molestiae.,"exercitationem, debitis, labore, ratione",270.37,False,Plato fuerte,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+7438cc90-68e1-4f9d-bbd2-42bf2041349c,Vel,Dolore saepe quae ipsa architecto.,"cum, quibusdam, quas, similique, non",116.41,False,Plato fuerte,db35b05e-14d7-42eb-8447-a58d66cca801
+f38a556c-dfc1-48df-9a9d-1d40ad4ab993,Exercitationem,Eum ipsum totam eveniet.,"debitis, nesciunt, suscipit, laudantium, natus",275.23,False,Bebida,c466af74-7bb7-4398-944b-6a49a69f3146
+229016c6-4667-4719-bb1e-fd5e6d6cecd4,Praesentium,Atque corrupti cupiditate harum ea esse.,"voluptatum, aspernatur, maxime, nobis",267.79,True,Postre,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+43ca5d89-1cc8-4044-8a89-b2eecdf7bcbb,Alias,Incidunt odit qui corrupti.,"placeat, tenetur, quam, placeat",78.23,True,Plato fuerte,6f577405-1c44-47a7-8eac-44d7ea038299
+e4c67dac-d519-4984-8243-0c142d7ff456,Officiis,Laudantium ad eos eos temporibus.,"molestias, enim",156.76,True,Bebida,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+01a2bdba-a835-46b6-a3a4-249bd9013688,Nisi,Soluta nesciunt aliquid eum fugiat iusto consequatur.,"soluta, accusantium, provident, cupiditate",239.77,False,Postre,a4fd99c5-0060-4207-9cc0-879563a72484
+81071c65-cef6-43c1-9cce-3f128b07faba,Qui,Ipsam aspernatur temporibus commodi soluta.,"quod, sapiente",180.01,False,Plato fuerte,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+03fb6284-22d0-4395-ad2e-43069a48340f,Facere,Ea cumque illo rerum alias explicabo iste.,"voluptate, doloremque, similique",132.39,False,Postre,320d825e-799a-42bf-975b-b541c93996f2
+d9f18a57-14a0-494a-a612-9e5dfef649f7,A,Alias neque atque iure nulla quis.,"enim, facere",113.81,True,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+ed9b4b7d-3c74-4774-8a08-7b8a4d234409,Minima,Vel repellendus eligendi voluptas commodi cupiditate.,"officia, veniam, deleniti",61.94,True,Plato fuerte,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+089c85e4-5ddf-4b9a-bd35-ba03e7c8397a,Autem,Consequuntur quam corporis dolorem.,"corporis, culpa",50.69,True,Bebida,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+7187198b-505e-4386-9f62-c17328e69c15,Accusamus,Ratione suscipit magnam dignissimos adipisci eum reprehenderit.,"quidem, sit, a, animi, placeat",278.62,True,Plato fuerte,6826f206-4b96-4a1a-8eff-809cabb06a53
+3a7a100b-216f-410d-b47e-077b1611ecba,Totam,At tempora ipsa harum commodi exercitationem dolorem.,"delectus, facilis, libero",146.35,True,Plato fuerte,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+9955f6b2-2534-4683-9c0e-c39ccbfe21f3,Suscipit,Accusamus placeat harum deserunt vitae debitis mollitia vero.,"aliquid, sequi, aliquam",208.15,True,Entrada,3803ddcf-1c88-4784-82dd-9f1fc7d3596c
+ff6cf4c7-a1c7-48e1-ad83-f12316befa7e,Deserunt,Doloremque placeat architecto corporis optio.,"nesciunt, delectus, adipisci, veritatis",141.24,False,Bebida,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+7743843e-3b4e-4313-aee2-4165fe657dbe,Vel,Vero dolorum dicta.,"quibusdam, cupiditate, sint",163.17,False,Plato fuerte,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+35f54861-a7da-41a1-9df1-ee752fec36a5,Est,Sit ullam soluta optio ad perferendis eaque.,"quas, nulla, sint",243.05,False,Postre,29c96df6-7e78-4a49-8404-04503a2941d8
+a4244218-b80d-46e8-92ae-8c05d325261b,Placeat,Illo enim enim tempora quo minima autem.,"neque, corrupti, perspiciatis, porro, iure",179.88,False,Plato fuerte,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+2d6c8c42-cd2e-43b5-907a-c384cf8bcc51,Eveniet,Perspiciatis ad architecto quam iusto itaque delectus quod.,"fuga, commodi, sit, nihil, distinctio",105.38,False,Plato fuerte,cc47b120-18c5-41ac-8e03-a30db1bf3290
+e66b07f3-1fc7-4601-ab2a-0e950b98fa9a,Deleniti,Quam sed rerum.,"expedita, molestias",72.71,False,Bebida,019e945b-528a-47de-a30a-2cebf5a9bee0
+44217132-bc7f-45de-93b6-e9aa31098bb0,Hic,Nemo reiciendis commodi.,"deleniti, molestiae, placeat, doloribus, inventore",269.9,False,Entrada,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+3c01231b-652b-4f8f-b6ed-8b5f8070b4b2,Aliquam,Ipsum temporibus consequatur odit architecto cum.,"itaque, neque, molestiae",140.55,True,Postre,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+f46d2f5c-6b57-4d64-95c8-b4ca3b3b3d36,Error,Iste aspernatur ratione iste earum.,"ad, doloribus, ipsam",289.3,True,Bebida,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+11f62001-bfc3-4f7b-a342-da36631bc70b,Eum,Cum ipsa repudiandae rerum veritatis vel.,"repellendus, earum",233.45,False,Bebida,8b911534-9c79-4f64-86b7-396560087ea9
+e444e842-191a-42b6-878d-5156a49fa1ef,Excepturi,Consectetur ab amet ratione dolor nihil.,"error, ratione, animi, quos",241.03,False,Postre,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+a39ea5e4-ca74-400f-a731-327fb110b741,In,Nihil odit placeat praesentium sed.,"iusto, itaque",126.8,False,Entrada,98024bcb-b9fb-463f-9990-4e337d780ce2
+745a4220-9b7b-4ee7-bcd9-a2b30b3dd859,Excepturi,Delectus necessitatibus veritatis omnis quas atque iste.,"adipisci, alias, reiciendis, dolorem, odit",87.55,True,Plato fuerte,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+9aa11cc3-35fe-4e9d-9d4d-d64b9ac8aada,Earum,Nihil temporibus modi ut.,"ut, illum, architecto",144.94,True,Postre,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+4bd7e294-57ae-438d-aee8-a417df8f5b81,Veritatis,Delectus quisquam quasi corrupti earum.,"incidunt, ducimus, dignissimos, veniam, quidem",183.1,False,Bebida,c0763211-373e-4800-866f-842361d899ff
+ba803613-4bdf-4d86-a036-e5bc7fe08eda,Animi,Cumque accusamus reprehenderit accusamus ratione soluta.,"esse, cupiditate, tempore, excepturi, hic",242.89,True,Postre,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+860ade64-370a-4790-9950-eb7e59735d29,Corrupti,Cum soluta ratione minus ea amet delectus.,"eveniet, cum, eveniet, at",218.23,False,Plato fuerte,6826f206-4b96-4a1a-8eff-809cabb06a53
+c597586a-1b8a-4062-819d-268fc2cc5853,Ipsa,Enim veritatis alias non.,"fugiat, nisi",260.07,True,Plato fuerte,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+beb3b76b-6e9e-4c68-8089-1ed6034ec0dc,Nesciunt,In exercitationem dolorum velit laborum.,"sit, recusandae, veniam, temporibus, quos",60.61,False,Plato fuerte,e1d9d489-791f-4871-bae6-e192795eda75
+137e870a-2d5a-4fc0-b7ee-e334b6cfe13b,Itaque,Dolorum vel veniam consequatur nisi magnam nesciunt.,"eum, at, occaecati",144.98,False,Postre,df94e915-aabb-4df3-9947-a0a4633c2666
+bfb552bb-d609-47f0-afef-1b19e2f8b4cf,Ipsum,Ullam voluptatum doloremque porro eligendi.,"ex, ipsam, a",183.34,False,Entrada,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+5537c054-fde1-4328-abb0-78cc2867c026,At,Reiciendis ut nihil nihil minima aliquid.,"enim, molestias, voluptatum",212.79,True,Entrada,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+f6ab19f3-4cff-4d0a-af92-29625deff309,Quod,Reprehenderit itaque dolor quidem cupiditate non non.,"adipisci, quibusdam, animi, atque, molestiae",99.27,True,Postre,d0e1ad11-86cc-4013-ba67-d92f0faecd39
+208f2048-a8f6-4307-9c15-085fe66a1e9c,Officiis,Rerum reiciendis doloremque ab sequi nihil.,"placeat, molestiae, excepturi, minima",253.85,True,Bebida,8b911534-9c79-4f64-86b7-396560087ea9
+cf118db2-54b2-40a0-bf1b-9d26ebd032c8,Officia,Nesciunt officia repudiandae vel similique nisi.,"illo, amet, tempora",159.69,False,Bebida,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+e665631f-856e-495f-a1e6-676383f3cbc5,Tenetur,Molestias voluptas voluptates.,"ut, libero, minima, nostrum",120.32,False,Plato fuerte,3bff8b7e-6c3a-4b98-b328-8857513627a4
+42cab5ce-4aee-46e1-9ef1-84b4d60e7903,Quos,Quidem tempore iusto ullam suscipit facilis aut pariatur.,"eum, expedita, repellat",197.29,False,Plato fuerte,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+451df31a-815e-42a7-b186-ada1c9074f0e,Eum,Blanditiis fugiat labore voluptatum qui ex.,"quas, quas, consectetur, laudantium",156.35,False,Bebida,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+0d50db34-92d5-404b-8753-0bbdaf0967fe,Quod,Omnis iure qui pariatur similique officia officiis.,"animi, eligendi, delectus",267.78,False,Plato fuerte,320d825e-799a-42bf-975b-b541c93996f2
+56d3fca8-9946-4e2b-b96f-81005f8a8c8a,Consectetur,Enim id mollitia temporibus quas voluptatibus aspernatur.,"repellat, iste, veritatis",232.26,False,Bebida,be5ecdee-1658-4e8f-9484-4d668b9abbaa
+7806bc5a-ef4e-4562-84d6-831e074bbae3,Mollitia,Odit vitae maiores aspernatur atque odit.,"eveniet, possimus",96.67,False,Entrada,ba4aabe4-3b7a-4dab-a589-1de21820ceb9
+f9f4755e-6006-4a0f-9d8f-7d0ca4f7fb0d,Distinctio,Dicta exercitationem sunt eaque.,"vero, incidunt, explicabo, suscipit, dolore",168.52,False,Postre,df94e915-aabb-4df3-9947-a0a4633c2666
+cb03c1be-ca05-4750-a973-4307685cd0d1,Delectus,Qui at ullam nam.,"sed, similique, corporis, officia",83.17,True,Bebida,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+e9e5fafb-5f64-44dd-a7ab-bd805db3c121,Corporis,Quia neque mollitia rerum voluptate ducimus delectus.,"illum, ipsam, at",145.88,False,Bebida,3bff8b7e-6c3a-4b98-b328-8857513627a4
+c28b7dda-bd01-478c-9641-fdc1f438ae15,Molestias,Eligendi dolore fugiat quisquam minus aliquam reprehenderit.,"dicta, molestias, dolor",190.82,True,Entrada,a4fd99c5-0060-4207-9cc0-879563a72484
+a6d6abc1-acb3-4eb2-ba90-caeabd6a8c1b,Itaque,Cupiditate error praesentium aliquam.,"corrupti, dolorum, occaecati, repellendus",284.08,False,Bebida,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+1bef3dec-7aef-4c43-805e-7db940572141,Adipisci,Cum eligendi enim libero cum aliquam veritatis.,"quidem, corrupti, reiciendis, placeat",150.74,True,Postre,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+ca8d363e-d7f2-4e42-a0ee-95f5c72ab405,Totam,Totam perspiciatis nisi veniam.,"quae, maiores, voluptatibus, temporibus, consectetur",184.68,False,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+33e3b311-91f2-464f-a870-9e0c054df6c6,Architecto,Neque voluptatum ratione quae suscipit.,"similique, dolorem, error, officiis",143.79,False,Entrada,c466af74-7bb7-4398-944b-6a49a69f3146
+9efe5fdf-ba1e-4ed5-8968-a7d1600793f4,Porro,Laborum ipsa doloremque incidunt voluptatibus sint odit.,"iure, in",272.72,False,Entrada,ace95a4f-247a-4338-9bd9-589d5ea1183e
+edacd239-1eb3-48e8-9e74-414e0a442096,Nam,Suscipit fugiat itaque recusandae unde sequi beatae.,"aspernatur, perferendis, perspiciatis, reprehenderit, odit",133.47,True,Plato fuerte,019e945b-528a-47de-a30a-2cebf5a9bee0
+37820779-f66c-46c8-9b36-de4375b2dd77,Iste,Voluptas tempora doloribus eum magnam.,"facere, dolores",145.34,True,Plato fuerte,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+96a06f23-a13e-433c-90b8-aed54232dc1c,In,Nulla quaerat ipsum doloremque.,"quis, reprehenderit, tenetur, magni, dolorum",66.27,False,Postre,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+4270a0c3-2c80-4605-8ede-00da6e46f415,Dolor,Quidem a maiores beatae at hic nam reprehenderit.,"doloremque, non, autem, non, voluptatem",268.77,False,Postre,b99c0c09-5047-4296-8139-acfde3571c98
+bb4c06bb-c11e-4af2-a769-85af88672277,Ducimus,Ullam consectetur delectus velit.,"voluptates, repellendus",105.06,False,Bebida,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+85446dd9-4736-4b53-a69f-e590cef2c13c,Deserunt,Officiis commodi pariatur vel non qui.,"porro, laborum, quae, saepe",148.77,False,Plato fuerte,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+78008cba-4e58-42b9-bf81-218ab08d204e,Provident,Amet at accusamus.,"adipisci, occaecati, facilis, eaque",170.39,True,Entrada,a73efcc8-7d0c-4405-bc4e-855e939d67dd
+5a3e5f9e-aedf-4429-bf7a-2bd470adb2d9,Illo,Architecto illo asperiores.,"iusto, perspiciatis, reprehenderit, quia, maxime",153.53,False,Entrada,b99c0c09-5047-4296-8139-acfde3571c98
+2133699c-dd01-4cf6-8e14-55ac6c1b70c3,Aspernatur,Delectus fugiat quos quae eos reiciendis.,"a, voluptatum",75.89,False,Entrada,ace95a4f-247a-4338-9bd9-589d5ea1183e
+78fd3d5a-8e3d-450f-932f-4cd02b0b433a,Occaecati,Quaerat explicabo ipsum quisquam ratione consequuntur fugit.,"ullam, quam",292.05,True,Postre,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+7326e731-7c7e-4e18-a365-8149a45f4a9d,Voluptatem,Enim veritatis quis fuga.,"optio, repellat, modi, deleniti",111.2,True,Bebida,a4fd99c5-0060-4207-9cc0-879563a72484
+82fbe16c-908e-44f2-9ab2-da5c2aa5efa6,Id,Autem excepturi vel recusandae deserunt.,"pariatur, nisi, reiciendis, culpa, minima",245.84,True,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+55981fde-8a2f-4856-94c0-83d66daeb4dd,Repudiandae,Eum totam ullam hic.,"ex, occaecati",107.34,False,Postre,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+67b78a6b-ace8-4cef-92eb-bbc531157c58,Eum,Alias ratione eum suscipit maiores exercitationem.,"voluptatibus, ut, asperiores, mollitia",283.44,False,Postre,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+729e52b6-8de7-472c-8ffd-ebe9ef7addcc,Assumenda,Iusto dicta similique iusto.,"quisquam, impedit",146.03,False,Entrada,019e945b-528a-47de-a30a-2cebf5a9bee0
+183d8ffb-6fa8-4387-98aa-5cd1dffa1904,Itaque,Reiciendis magni sequi ut nam quasi iusto dolorum.,"recusandae, numquam",110.49,True,Bebida,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+c529c291-a287-4a08-aaaf-ee354c55f504,Cupiditate,Ab omnis enim non consequuntur rerum velit.,"labore, ipsa, optio, expedita, voluptatum",209.85,True,Bebida,776654e5-bd7c-4cb0-bcef-dd5f226ae4a2
+a978b7ac-ea7b-45dc-a4b6-558f228815a8,Maxime,Reprehenderit similique cumque explicabo officia ut.,"cumque, natus, sapiente, facere",231.03,False,Bebida,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+a057b209-94c0-434a-ad6e-8e8e62c1180d,Voluptatem,Facilis molestias magni veritatis tenetur.,"incidunt, in",222.98,False,Postre,09000c09-72ba-4ecd-83a7-6bd602e0a610
+9808c0bf-400f-4c21-aa6e-e2ae19d196f0,Suscipit,Beatae quam similique minus cum corporis beatae.,"quo, quasi, accusamus, a, quas",84.5,False,Postre,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+a3f9902e-ab24-4c11-ad03-77c9a19c7a03,Reprehenderit,Quasi voluptatibus officiis voluptatem itaque recusandae modi.,"nesciunt, labore, numquam, earum, accusantium",93.39,False,Bebida,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+09798596-312b-47b0-8ba3-f18afe31d1d8,Dicta,Optio aperiam sunt delectus.,"odit, commodi, non, beatae",158.3,False,Entrada,29c96df6-7e78-4a49-8404-04503a2941d8
+b9d9c7a4-79bd-454a-a265-d67afc0b1a65,Iusto,Magnam officia quis assumenda tempore libero quae.,"repellendus, nobis",161.74,True,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+a0d42529-a84d-436f-9525-bb2531ed2cc6,Voluptatem,At soluta deleniti dolores modi.,"veniam, dignissimos",207.22,True,Plato fuerte,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+bb7390e2-91de-484d-83ec-56b5c5994e83,Nobis,Ipsum vel voluptates esse accusamus unde officia.,"suscipit, ab, dolore",260.44,False,Postre,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+1d7313c4-f50c-4841-b83b-16eed4f8aa2b,Dolore,Maiores dignissimos recusandae doloremque delectus qui.,"eos, iste",200.02,False,Plato fuerte,b3e006c6-cce9-46e5-bb29-d23d927087ae
+e3d8f423-89e7-498a-ab7b-b34cfda08596,Ab,Laboriosam laboriosam consequuntur voluptatum molestiae inventore quos sed.,"totam, tempora, voluptatem, repellendus",105.44,True,Bebida,cc47b120-18c5-41ac-8e03-a30db1bf3290
+f1f2ed04-381d-4332-8b9d-c343aec7f9c6,Magnam,Est saepe maiores delectus officiis culpa nihil.,"voluptatum, libero",164.47,True,Bebida,320d825e-799a-42bf-975b-b541c93996f2
+4b4f4d0c-0be9-487e-bbc5-d1973ec7fc47,Accusamus,Voluptatum illum laborum quod tempore minima distinctio.,"pariatur, accusamus, quos",179.9,False,Bebida,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+0689f21c-5583-47ee-b619-c9fb70203a66,Ullam,Ut facere incidunt incidunt qui fuga maxime.,"molestiae, eius, eveniet, assumenda, ex",216.68,False,Plato fuerte,8a349e05-7c9d-43b8-acde-60136f98f69d
+f0c0be0b-36c1-4e74-b73b-f5240f191be5,Error,Perferendis mollitia autem tenetur.,"optio, tenetur, tenetur, accusamus",278.9,True,Bebida,98024bcb-b9fb-463f-9990-4e337d780ce2
+4767869a-5562-46aa-9a6f-0e1b71296fd4,Laboriosam,Porro enim porro quae labore corrupti modi culpa.,"ex, molestiae, neque, adipisci",84.9,False,Bebida,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+e842b300-37c8-4453-8b2a-5613e4667ed6,Ullam,Soluta eius blanditiis rerum.,"soluta, fugiat",184.99,False,Entrada,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+a6301316-f437-4664-b2f9-982e3d086a9a,Animi,Veniam accusantium maxime beatae deleniti nam.,"aperiam, ea",142.88,True,Bebida,db35b05e-14d7-42eb-8447-a58d66cca801
+97e46cef-d758-4d08-a016-ca7882e8eb2a,Modi,Reiciendis pariatur at voluptates rerum est cumque optio.,"sapiente, fugiat, voluptatibus, ratione",116.27,False,Plato fuerte,86a831ab-700f-4a89-885f-8d3c7bfdda59
+b2ed0d24-9649-4880-a8ae-7bea1a27cacb,Facilis,Officia corporis debitis aut eum.,"blanditiis, praesentium",279.94,False,Postre,72a40609-2c3e-4acd-9922-561967e70b81
+456f30c0-e566-4bea-8a79-7a37d42d11d8,Velit,Deserunt mollitia voluptates.,"mollitia, alias, numquam, amet, dolorum",170.36,False,Plato fuerte,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+b14e5566-39d4-478a-b286-9f65edd0ce74,Libero,Inventore dolor minima quas.,"placeat, nihil, quis",252.8,True,Plato fuerte,df0128d3-0fbe-427d-b7cd-ba8d8c49b383
+84bf15f7-d578-440b-a947-90ff32d7fab6,Nihil,Eum voluptates fugiat molestiae fugit quisquam.,"id, molestias, deserunt",298.24,False,Plato fuerte,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+9ab412bb-4745-46fd-a2e4-9f2cb2ef66f4,Laborum,Nihil dicta ad corrupti velit.,"earum, enim, consectetur, porro",51.9,True,Entrada,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+c73c5239-4048-4815-a9d0-b6c421689ac6,Laborum,Animi error architecto nemo beatae.,"consequatur, quas",91.04,False,Postre,6f577405-1c44-47a7-8eac-44d7ea038299
+c1f5366c-adbf-4eaa-84d7-0018b63a3b88,Quos,Deserunt voluptatibus temporibus rem quia voluptatum aut.,"praesentium, consectetur, magnam, cupiditate, sit",215.0,False,Plato fuerte,ace95a4f-247a-4338-9bd9-589d5ea1183e
+f9b03a43-ba85-4d04-9a20-5b072967d000,Facilis,Eligendi ipsum sint hic iste minus soluta.,"dolor, aliquid, sit, minus",110.49,True,Entrada,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+1f9e80f4-0cb8-4fd2-9222-2ee4e67f63d7,Illo,Laboriosam amet maxime ex.,"architecto, totam, molestiae",201.46,False,Bebida,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+e5c889c3-5266-415f-9eab-14e76b07eb10,Ducimus,Reiciendis provident minus voluptatum qui eius.,"nihil, dolorum, necessitatibus",210.58,True,Plato fuerte,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+903ce9ca-2a70-4e59-966a-d16b3c5c4be6,Enim,Deleniti voluptatum fugiat.,"illo, repellat, itaque",191.47,True,Bebida,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+39c1dec5-7e7e-4311-9661-e77cb796c5c2,Veritatis,Molestiae illum quam cum.,"nesciunt, placeat, voluptate, maxime",286.85,False,Bebida,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+c84be191-9dc0-4de1-8188-be9be249922c,Officiis,Et nisi minima ratione dignissimos alias quisquam.,"porro, laboriosam",162.07,False,Entrada,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+9a9cb5e9-a8b9-4d42-84b3-0cfcafdc1c88,Perferendis,Earum quidem repellat ad ipsam odit omnis.,"facilis, corporis",79.46,True,Plato fuerte,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+ebdc2389-0a05-4c42-854c-fec4067e3558,Cum,Facilis vitae in neque rerum blanditiis ea.,"quam, quis, magni",247.8,False,Postre,c466af74-7bb7-4398-944b-6a49a69f3146
+6622cd11-47e6-431c-adf3-f423bb8960db,Adipisci,Sint neque fugit autem.,"reprehenderit, doloremque, aperiam, velit",204.19,False,Postre,cc47b120-18c5-41ac-8e03-a30db1bf3290
+f37cb8cf-b170-437a-a89e-c5abab3f3afc,Molestias,Saepe qui aut dolorem inventore.,"a, cumque, doloribus",245.51,True,Bebida,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+05e40679-f72e-4987-a31f-861404fb8d52,Numquam,Labore cupiditate dolorem dolorem repellendus.,"dolor, eius, iusto, modi",175.71,False,Bebida,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+d9aef010-a1ac-46e0-bccf-db3f04e12081,Magni,Labore nulla a dolorum reiciendis repudiandae.,"beatae, recusandae, ex, beatae, quam",242.3,True,Postre,e1d9d489-791f-4871-bae6-e192795eda75
+942c2b21-3728-4332-a1eb-02510d8517a2,Voluptatibus,Rem doloribus esse illum velit ipsa.,"sapiente, nisi, repellat, error, maxime",215.01,True,Entrada,3bff8b7e-6c3a-4b98-b328-8857513627a4
+891d5f16-cab1-4a86-b37f-489a231a5b53,Autem,Tempora maiores laudantium quia.,"dolore, deleniti, voluptates",117.17,True,Plato fuerte,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+206f64f6-7508-4f1b-8223-71e226ea9dbb,Tempore,Nam reiciendis quis cumque reprehenderit.,"odit, laboriosam, minus",52.51,True,Entrada,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+2d9a9102-3486-4482-904f-8f4813373687,Harum,Praesentium laboriosam recusandae ex labore tenetur.,"est, autem, autem",153.72,True,Plato fuerte,72a40609-2c3e-4acd-9922-561967e70b81
+cb95893f-2f13-46a7-9519-ef6307147b23,Blanditiis,Repudiandae quod tempora.,"nemo, vel, repellendus, nesciunt",149.38,False,Postre,b3e006c6-cce9-46e5-bb29-d23d927087ae
+e13060e0-e088-4133-9b9a-7351c848e9db,Quasi,Rem provident illo nobis soluta.,"soluta, aut, eveniet, quisquam",276.63,False,Bebida,4b0e13e8-05fe-4ad7-b805-5795d5e7a84d
+22f07850-d577-4722-b2b7-e42e25aa5633,Consequatur,Tenetur libero quod sint consequuntur.,"ducimus, enim",179.95,True,Plato fuerte,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+5a315e8d-2b4e-4e91-9c2b-a37940027e39,Quisquam,Qui amet doloribus officia eius ea aliquam sunt.,"praesentium, perspiciatis, possimus",156.37,False,Bebida,df94e915-aabb-4df3-9947-a0a4633c2666
+2ad212c5-91e8-45c5-b149-94dc83202e6c,Ipsum,Id quaerat dicta doloremque.,"eius, cum",265.02,True,Entrada,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+6aa9c5ac-cf97-4f61-9989-bd0c07efd342,Excepturi,Hic voluptates autem debitis sed.,"saepe, ea",97.22,True,Bebida,df94e915-aabb-4df3-9947-a0a4633c2666
+53b3d04e-d53c-4847-839d-3c6d5f8620da,Corrupti,Nihil possimus libero.,"hic, voluptatum, perspiciatis",122.67,True,Plato fuerte,e1d9d489-791f-4871-bae6-e192795eda75
+7572fd03-c4f8-4109-ba34-58939d5113a7,Vel,Perferendis a iure rem.,"optio, praesentium, soluta, illum, officia",152.33,False,Plato fuerte,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+4297df9e-439d-4e17-95aa-e5e536d1ed3b,Qui,Quos qui sit culpa necessitatibus pariatur.,"quos, culpa, at",205.32,True,Postre,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+bbdb14b8-3b28-47fa-a789-243784a8c5b1,Unde,Saepe sequi perspiciatis rerum enim qui assumenda ea.,"ducimus, quae, unde",156.64,True,Plato fuerte,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+3c072e9a-0133-4744-bda9-ba8f938e1c50,Ut,Quaerat tenetur dolores beatae.,"ipsam, omnis, repellat, quaerat, quisquam",131.32,False,Bebida,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+091592b6-0272-4681-90ce-f081ceee89ee,Alias,Accusantium officiis nobis occaecati perspiciatis aspernatur a vitae.,"numquam, illum",269.61,True,Bebida,3ddefeef-de2f-4c5f-9a08-090d82bb73ea
+cd5bd54b-1c9d-4334-8e9d-3e7030bc6ca6,Dolorem,Soluta laboriosam quidem temporibus facilis dicta quod.,"minima, aspernatur, numquam",274.74,False,Entrada,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+344aa9bd-2a8b-4fa5-99d4-d3b970a35a86,Facere,Voluptas fuga corporis nulla animi explicabo.,"deleniti, facere",291.73,False,Bebida,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+a815a5e7-978e-400f-8b83-8851bac7253e,Quia,Molestias fuga iste id dolorem consectetur.,"magnam, ipsam",217.88,False,Postre,c466af74-7bb7-4398-944b-6a49a69f3146
+062a3651-a00e-444a-b833-b6b41bd15c54,Temporibus,Soluta aliquid corporis atque alias labore voluptatibus.,"repellat, facilis, saepe, possimus",244.42,False,Plato fuerte,a4fd99c5-0060-4207-9cc0-879563a72484
+1f246b3d-81a5-4fd3-8e5e-29a890777ab4,Quibusdam,Deleniti voluptatibus error in.,"unde, nemo, beatae, earum, nobis",203.0,False,Entrada,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
+5008783e-7416-4472-980b-a6fa34306314,Illo,Inventore necessitatibus modi sunt velit assumenda labore.,"minima, in, fugit",256.58,False,Plato fuerte,98024bcb-b9fb-463f-9990-4e337d780ce2
+c6f4bbbe-2f78-40a8-bd2b-195733e279d6,Dolorem,Libero alias debitis iusto consectetur.,"dolorum, enim, laudantium",92.09,True,Bebida,9cd05d27-bd40-4f64-b724-5de933fdfcb6
+30ff8b7b-f435-4049-a820-01fc67ddbedb,Harum,Temporibus quos vel repellat dignissimos quidem.,"delectus, explicabo",100.52,False,Plato fuerte,86a831ab-700f-4a89-885f-8d3c7bfdda59
+efdf3728-6674-4f16-9a0f-c327e028143d,Laborum,Non officia fuga pariatur mollitia tenetur fugit.,"ipsum, cumque, voluptates, possimus, natus",196.84,False,Postre,2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195
+15bb39ad-8179-425c-bfc2-8cdd84c9b0a8,Optio,Molestiae quae maxime eos similique beatae rem.,"deleniti, unde, deserunt",123.33,False,Plato fuerte,f3583c42-ecf7-45ef-af01-9a38abf25226
+c2743780-dca9-43ec-98b2-be2886dab4c7,Assumenda,Cum amet doloribus doloremque.,"totam, nobis, officiis, odit",70.86,False,Bebida,c0763211-373e-4800-866f-842361d899ff
+77a4b723-e1b6-4b7d-9ef4-b7f3929f9811,Veniam,Dolor tempore corrupti vel similique iusto ea.,"architecto, praesentium, voluptas, consectetur",65.0,True,Postre,5bcdb780-3ef3-4036-ad30-f6615e5871ba
+599c3a94-80f2-493e-835c-97454fa823f0,Dignissimos,Ut debitis nam qui in.,"possimus, eos, minus",260.15,False,Bebida,98024bcb-b9fb-463f-9990-4e337d780ce2
+a9898e4e-9ad5-4a67-ab88-abbdc235519d,Aut,Repellendus deleniti iste alias.,"in, vitae, asperiores, ad, repellendus",80.15,False,Plato fuerte,b3e006c6-cce9-46e5-bb29-d23d927087ae
+91fbab7d-5a7c-4924-911e-fb127b6a254a,Aut,Dolorum minus esse reiciendis sed minima.,"a, illum, voluptas",117.65,True,Bebida,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+4828b1b0-c82e-4850-84a6-9704188b081c,Officiis,Excepturi voluptate quis animi repudiandae earum velit excepturi.,"mollitia, quia, animi, maiores, assumenda",268.48,True,Plato fuerte,c706e8b8-d8ed-4845-bee8-6d4cff137f6f
+82a5b66c-8b70-439a-b903-81bb6ac82719,Eveniet,Voluptates iure minus molestias eaque voluptates molestiae veniam.,"dolor, voluptatem",75.88,True,Plato fuerte,de0a150e-e76e-4235-b161-ab43c7d9c5e2
+f6131c46-9256-44c9-aef5-e882f85ab2c0,Ullam,Ratione et fugit at delectus ex.,"soluta, hic, cumque",119.58,False,Plato fuerte,04876278-c4dd-4b03-a7f0-fae053bc5fc8
+cc14151c-bae5-4a28-9958-6183d84e20a2,Eos,Magni ullam laudantium cupiditate necessitatibus sit libero at.,"autem, fugit, occaecati",262.84,False,Bebida,b3e006c6-cce9-46e5-bb29-d23d927087ae
+340225d5-f9d6-4846-a687-f16e3212eacc,Ex,Provident vero corporis vero eum quos.,"voluptatem, ullam",202.52,False,Plato fuerte,29c96df6-7e78-4a49-8404-04503a2941d8
+fcafe373-34b6-42e6-92f2-19fc95663914,Dolores,Reiciendis odit sed ex omnis debitis.,"sed, dolorum, quas, eius, odio",191.83,True,Bebida,32a63a8e-c480-4d15-82ce-196c13bd2970
+7558e73b-fa5a-4101-8599-ccee1113ba27,Suscipit,Facilis temporibus iusto.,"nisi, provident",257.61,False,Entrada,8b911534-9c79-4f64-86b7-396560087ea9
+fd58da35-c81f-4f4a-a0bd-051a67df5482,Quam,Officiis temporibus minus odit nam.,"ab, veritatis",97.95,False,Entrada,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+bbbc42e9-cb36-487e-ae72-bb95573bccb1,Impedit,Eos reiciendis cum nihil.,"saepe, dolore",225.21,False,Plato fuerte,c466af74-7bb7-4398-944b-6a49a69f3146
+fc991236-0d2e-4b59-a18b-669dfae4f8c8,Voluptatibus,Inventore nulla voluptate tempore iste sint at provident.,"dolorem, dolor, blanditiis, sint, laudantium",192.38,False,Bebida,ace95a4f-247a-4338-9bd9-589d5ea1183e
+c6a774a4-2347-4c5a-812e-787e0e1b7c83,Nisi,Perferendis ipsum esse repellat nulla debitis magni sequi.,"similique, vitae, fuga, amet, explicabo",50.43,True,Entrada,9f02dff8-d19e-40d0-94be-0e67e4b164c0
+2300f642-2b3c-4296-8923-7b65ca9ba76d,Similique,Voluptates eius rerum.,"ipsam, dolor, magnam, totam",181.45,False,Postre,09000c09-72ba-4ecd-83a7-6bd602e0a610
+9e32ef68-747b-435c-87f5-e9d389fdb252,Dicta,Assumenda alias dolorem officia minus.,"non, expedita, libero, quidem, corporis",197.16,True,Bebida,e1d9d489-791f-4871-bae6-e192795eda75
+7b247108-adb5-4eba-826e-def39942654f,Voluptatibus,Sit perspiciatis molestiae voluptatem.,"temporibus, incidunt, rem, illum",190.48,False,Entrada,b3e006c6-cce9-46e5-bb29-d23d927087ae
+2cdca4b7-65e5-4909-a7ee-c80f18e80bc6,Iusto,Ipsum ducimus nostrum deserunt fugiat.,"assumenda, minus, perspiciatis, vero, sapiente",172.05,True,Bebida,470786d4-eaf2-4ed7-bd03-2be46ec9f3c1
+c2adbde8-3416-487b-9f7b-6477663f638c,Adipisci,Dolorem atque neque.,"dignissimos, eaque, autem",51.25,True,Bebida,db35b05e-14d7-42eb-8447-a58d66cca801
+3e3c0e55-ed82-46c6-b273-055c104dd8e2,Distinctio,Dignissimos quam optio dolor aspernatur voluptas blanditiis.,"nam, possimus, reiciendis",288.23,True,Plato fuerte,32a63a8e-c480-4d15-82ce-196c13bd2970
+37837ffb-3500-47c8-8d83-9a2c1f315b00,Temporibus,Illo minima quas cumque laborum vel quod alias.,"porro, vero, quo, vel, incidunt",274.62,False,Postre,8b911534-9c79-4f64-86b7-396560087ea9
+98cecf3c-5b5b-4da1-b009-f3ef2eac6182,Consequatur,Beatae dolorum eveniet et.,"ratione, impedit, inventore, enim",64.53,False,Plato fuerte,72a40609-2c3e-4acd-9922-561967e70b81
+1a9f8e9c-c7fa-47da-b5a9-ce6ddf9a2ec6,Asperiores,Tempora sequi eum at rem nobis molestias.,"minima, quaerat, rerum, deserunt",196.27,False,Postre,9fe706a4-4c43-47ac-9c2b-5d5703f51b41
+c827ba64-dc48-42ab-90c4-bc14794f3e13,Aut,Tempora ipsa laboriosam.,"numquam, velit, officiis, veritatis, quaerat",63.22,False,Entrada,cca32899-2ebd-4d2d-9d27-f894ff9e8ebc
+8a9091bf-5cc7-49b3-96d2-471cc1698518,Tempora,Repellendus saepe blanditiis ipsam quis.,"alias, temporibus, facere, dignissimos",70.64,False,Bebida,72a40609-2c3e-4acd-9922-561967e70b81
+603878d1-5039-4627-ad0a-133d16d9de3a,Dicta,Voluptatem quaerat cum explicabo sapiente error ea.,"maxime, tenetur, et, quaerat, ratione",146.86,True,Entrada,6826f206-4b96-4a1a-8eff-809cabb06a53
+9082a085-d15f-4f7e-88ff-0c17eb763a20,Aliquid,Saepe esse dolor veniam corrupti repellendus fugit.,"eos, explicabo, iusto, occaecati, dolorum",84.41,True,Entrada,5e7120f9-34c9-4eee-b9c9-d01080ab2e47
+78457666-edeb-453a-a1b8-3d57a21fb8e3,Blanditiis,Asperiores voluptatibus tempora soluta ab.,"sed, modi, similique",207.54,True,Plato fuerte,8a349e05-7c9d-43b8-acde-60136f98f69d
+dff3de8c-bc6e-465e-8d7a-d9b060d27e13,Modi,Sint molestias voluptate sequi laboriosam fuga incidunt.,"doloribus, illum, earum, debitis",180.54,True,Bebida,e1d9d489-791f-4871-bae6-e192795eda75
+96705d1a-96ef-4709-952c-603d3901df58,Ab,Incidunt laboriosam error sit impedit cumque.,"odit, reiciendis, nostrum",188.32,False,Entrada,eec4a676-e06b-46d4-9dbc-6bd2525ab0b4
+0bfdee6d-0a80-4d5f-b2c4-7ea2c48af14f,Inventore,Excepturi esse soluta non sint voluptatum.,"et, praesentium, optio, quis",234.47,False,Plato fuerte,86a831ab-700f-4a89-885f-8d3c7bfdda59
+4e9f1f61-b2bd-4184-98f2-4b21412b47e6,Porro,Quis aperiam facilis nostrum molestias.,"adipisci, voluptatem, dolores, aperiam",234.75,False,Bebida,3bff8b7e-6c3a-4b98-b328-8857513627a4
+a1802740-2bdc-417d-9b4e-e26a5e31887c,Dolorum,Quasi aperiam fuga temporibus sapiente.,"officia, molestiae, aliquid",113.06,False,Postre,8d8c51ac-ec94-4025-be83-5e8a77bfff1f
+4348824b-8e79-4eb3-922d-293facf0f1aa,Sint,Fugiat iste vel distinctio.,"eos, quas, nulla",285.2,False,Plato fuerte,df94e915-aabb-4df3-9947-a0a4633c2666
+bcddf240-6611-42e4-972e-595755a23299,Illum,Eius repudiandae accusantium explicabo maiores dignissimos.,"porro, eius, facere, dolores, animi",57.07,True,Bebida,a6185e7e-0b3c-4d63-b976-b23d0b954eb9
+b911f458-e1cf-4dcf-a374-4904aa4a37ee,Eaque,Rem officiis sint quidem.,"porro, fugiat, necessitatibus, totam",200.85,False,Entrada,15c55408-8bfa-4f1c-9f70-978739fb2cc0
+db7c109f-0ac2-4629-8972-b4dbd593a5b7,Magni,Odio perferendis voluptas quae corporis natus.,"tempore, ex",115.24,True,Plato fuerte,6f577405-1c44-47a7-8eac-44d7ea038299
+c3a90453-32ff-4261-8020-7743a4d3d0f7,Minima,Officiis nostrum laboriosam maiores.,"accusantium, dolorem, quis",68.24,False,Bebida,98024bcb-b9fb-463f-9990-4e337d780ce2
+0c85cfb4-321f-414f-9444-933703b09a78,Quo,Accusamus pariatur quae minima consequatur molestias.,"ducimus, minima",84.5,False,Bebida,c466af74-7bb7-4398-944b-6a49a69f3146
+ab7518da-e9e0-4834-a2e8-9e9c5a8612fb,Error,Voluptatum numquam praesentium vero consequuntur tempora.,"explicabo, sint, optio, debitis",141.48,False,Bebida,4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef
