@@ -10,6 +10,7 @@ fake = Faker("es_MX")
 usuarios_ids = [str(uuid4()) for _ in range(1000)]
 restaurantes_ids = [str(uuid4()) for _ in range(50)]
 menu_items_ids = []
+ordenes_ids = []
 
 # ========== Usuarios ==========
 with open("usuarios.csv", "w", newline="", encoding="utf-8") as f:
@@ -129,6 +130,7 @@ with open("ordenes.csv", "w", newline="", encoding="utf-8") as f:
     )
     for _ in range(800):
         temp_id = str(uuid4())
+        ordenes_ids.append(temp_id)
         usuario_id = random.choice(usuarios_ids)
         restaurante_id = random.choice(restaurantes_ids)
         fecha = fake.date_between(start_date="-1y", end_date="today")
@@ -175,7 +177,7 @@ with open("resenas.csv", "w", newline="", encoding="utf-8") as f:
     for _ in range(500):
         temp_id = str(uuid4())
         usuario_id = random.choice(usuarios_ids)
-        orden_id = str(uuid4())
+        orden_id = random.choice(ordenes_ids)
         restaurante_id = random.choice(restaurantes_ids)
         comentario = fake.sentence()
         calificacion = random.randint(1, 5)

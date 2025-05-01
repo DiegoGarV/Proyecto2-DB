@@ -1,51 +1,51 @@
 temp_id,nombre,longitud,latitud,departamento,ciudad,categoria,calificacion_promedio,horario
-019e945b-528a-47de-a30a-2cebf5a9bee0,Valdivia-Torres,-89.289158,27.143899,Aguascalientes,San Aida los altos,Vegetariana,4.2,9:00-21:00
-b99c0c09-5047-4296-8139-acfde3571c98,Laboy S.A. de C.V.,-99.463161,18.948837,Quintana Roo,Nueva Dominicana,Mariscos,1.0,7:00-23:00
-3803ddcf-1c88-4784-82dd-9f1fc7d3596c,Collado y Tafoya A.C.,-88.310151,21.984058,Nayarit,Vieja El Salvador,Mexicana,1.4,9:00-19:00
-15c55408-8bfa-4f1c-9f70-978739fb2cc0,Tapia-Zamudio S.A.,-99.069956,30.04414,Querétaro,San Bernabé los bajos,China,1.2,7:00-22:00
-9f02dff8-d19e-40d0-94be-0e67e4b164c0,"de Jesús, Ramón y Iglesias",-109.746379,21.672425,Chiapas,Nueva Bahamas,China,4.1,8:00-21:00
-a4fd99c5-0060-4207-9cc0-879563a72484,Industrias Pabón y Cotto,-111.207547,28.737127,Michoacán de Ocampo,Vieja Granada,Mariscos,4.9,9:00-20:00
-29c96df6-7e78-4a49-8404-04503a2941d8,Bahena y Madrid A.C.,-102.825607,32.555893,Yucatán,San Isabela de la Montaña,China,2.7,10:00-23:00
-8a349e05-7c9d-43b8-acde-60136f98f69d,Laboratorios Valdez-Balderas,-86.80582,19.421889,Jalisco,San Benito los altos,Mariscos,2.4,7:00-22:00
-9cd05d27-bd40-4f64-b724-5de933fdfcb6,Grupo Fonseca-Orta,-92.047422,26.256238,Chihuahua,Vieja Gabón,Italiana,1.2,7:00-19:00
-6826f206-4b96-4a1a-8eff-809cabb06a53,del Río y Segovia S.C.,-95.313697,15.0175,Puebla,Nueva Côte d'Ivoire,China,4.9,8:00-20:00
-86a831ab-700f-4a89-885f-8d3c7bfdda59,Quintero y Zaragoza S. R.L. de C.V.,-107.226698,22.634971,Guanajuato,San Antonia los bajos,Vegetariana,3.8,9:00-23:00
-3bff8b7e-6c3a-4b98-b328-8857513627a4,Fernández e Hijos,-108.594665,17.507935,Guerrero,Nueva Djibouti,Mariscos,1.6,7:00-19:00
-776654e5-bd7c-4cb0-bcef-dd5f226ae4a2,Vallejo-Yáñez S.A.,-104.683569,28.542005,Querétaro,Vieja España,China,3.7,10:00-23:00
-cca32899-2ebd-4d2d-9d27-f894ff9e8ebc,Guerra-Candelaria,-87.307278,19.102763,Hidalgo,Nueva Azerbaiyán,Mexicana,1.9,10:00-19:00
-c466af74-7bb7-4398-944b-6a49a69f3146,"Alcala, Córdova y Salcedo",-111.49958,22.284292,Sinaloa,San Dalia los bajos,Mexicana,4.7,7:00-22:00
-9fe706a4-4c43-47ac-9c2b-5d5703f51b41,Despacho Castellanos y Almaraz,-109.500045,28.44296,Campeche,Nueva Ghana,Vegetariana,4.6,7:00-22:00
-a73efcc8-7d0c-4405-bc4e-855e939d67dd,Lovato-Longoria S.A. de C.V.,-116.322597,28.901693,Colima,San Hermelinda de la Montaña,Japonesa,3.4,9:00-21:00
-df0128d3-0fbe-427d-b7cd-ba8d8c49b383,Mascareñas-Iglesias,-101.018616,31.345269,Hidalgo,San Mauricio de la Montaña,Mariscos,1.5,10:00-21:00
-d0e1ad11-86cc-4013-ba67-d92f0faecd39,Ibarra-Curiel,-114.924709,22.018925,Oaxaca,San Pilar los altos,Japonesa,3.7,8:00-23:00
-a6185e7e-0b3c-4d63-b976-b23d0b954eb9,"Club Cordero, Mercado y Quezada",-105.916245,17.25024,Chihuahua,Vieja Japón,Italiana,2.1,7:00-23:00
-8d8c51ac-ec94-4025-be83-5e8a77bfff1f,"Corporacin Avilés, Villaseñor y Pedraza",-100.716399,26.905726,Nuevo León,San Dolores los altos,Japonesa,2.2,9:00-22:00
-b3e006c6-cce9-46e5-bb29-d23d927087ae,Franco-Casillas S.C.,-97.558878,16.57106,Baja California Sur,San Julio César los bajos,Vegetariana,4.4,7:00-20:00
-cc47b120-18c5-41ac-8e03-a30db1bf3290,Sisneros S. R.L. de C.V.,-94.820941,22.227199,Colima,San Guillermo de la Montaña,Mexicana,4.0,10:00-19:00
-db35b05e-14d7-42eb-8447-a58d66cca801,"Laboratorios Anguiano, Varela y Ulibarri",-98.931843,23.056788,Chihuahua,San Gregorio de la Montaña,China,1.2,10:00-20:00
-c706e8b8-d8ed-4845-bee8-6d4cff137f6f,"Despacho Zambrano, Ramón y Holguín",-114.605304,18.549062,Durango,Vieja Costa Rica,Japonesa,3.0,7:00-19:00
-5bcdb780-3ef3-4036-ad30-f6615e5871ba,"Muñoz, Tejeda y Jiménez",-101.127584,17.430333,Morelos,San Gregorio de la Montaña,China,3.8,8:00-21:00
-f3583c42-ecf7-45ef-af01-9a38abf25226,Despacho Arguello y Salazar,-113.912889,23.291404,Puebla,San Esmeralda los altos,Vegetariana,4.8,9:00-20:00
-eec4a676-e06b-46d4-9dbc-6bd2525ab0b4,Club Carrión-Zamora,-87.96697,20.849633,Distrito Federal,San Linda los bajos,Mexicana,1.2,10:00-23:00
-98024bcb-b9fb-463f-9990-4e337d780ce2,Club Velázquez-Montemayor,-101.432835,17.865332,Tlaxcala,Vieja Tayikistán,Mexicana,1.7,8:00-22:00
-3ddefeef-de2f-4c5f-9a08-090d82bb73ea,Saldaña y Velásquez S.A.,-100.487793,31.304696,Nayarit,Vieja Yemen,Japonesa,4.0,7:00-20:00
-32a63a8e-c480-4d15-82ce-196c13bd2970,Maestas A.C.,-93.092306,29.762233,Zacatecas,Nueva Chipre,Italiana,3.4,8:00-21:00
-be5ecdee-1658-4e8f-9484-4d668b9abbaa,"Linares, Ballesteros y Camacho",-99.055005,29.38338,Baja California,Vieja Australia,Mexicana,1.8,8:00-20:00
-e1d9d489-791f-4871-bae6-e192795eda75,Despacho Cortez-Briseño,-90.331741,14.709748,Zacatecas,Vieja República Popular Democrática de Corea,Mariscos,2.2,8:00-19:00
-04876278-c4dd-4b03-a7f0-fae053bc5fc8,Menchaca-Olivera e Hijos,-90.824747,15.59276,Nayarit,Vieja República Federal Democrática de Nepal,China,3.4,7:00-20:00
-4b0e13e8-05fe-4ad7-b805-5795d5e7a84d,Laboratorios Ontiveros-Velasco,-86.963769,18.341744,Aguascalientes,San Gonzalo los altos,Mariscos,4.3,9:00-19:00
-c0763211-373e-4800-866f-842361d899ff,"Calderón, Gamboa y León",-98.686057,25.446669,Zacatecas,Vieja Kiribati,Italiana,4.3,9:00-21:00
-df94e915-aabb-4df3-9947-a0a4633c2666,Laboratorios Nieto y Ramón,-87.86047,30.102753,Yucatán,Nueva Suiza,Italiana,4.3,8:00-21:00
-09000c09-72ba-4ecd-83a7-6bd602e0a610,Terrazas A.C.,-101.329906,19.005644,Tabasco,San Alonso los altos,Mexicana,3.1,7:00-23:00
-31f203f7-58f1-40d6-aab5-7bbeb4fc9574,Berríos-Rivas y Asociados,-94.675613,23.363503,Tabasco,Vieja Senegal,Mariscos,4.0,8:00-20:00
-320d825e-799a-42bf-975b-b541c93996f2,Adame-Meza A.C.,-109.00974,32.627919,México,San Juan Carlos los bajos,Mexicana,1.8,7:00-20:00
-5e7120f9-34c9-4eee-b9c9-d01080ab2e47,Corporacin Gollum-Altamirano,-111.08034,32.673256,Michoacán de Ocampo,Nueva Guinea,China,1.6,8:00-21:00
-6f577405-1c44-47a7-8eac-44d7ea038299,Jurado-Arredondo S. R.L. de C.V.,-92.435399,30.645617,Distrito Federal,San Soledad los bajos,Mexicana,2.2,10:00-19:00
-72a40609-2c3e-4acd-9922-561967e70b81,Laureano-Camacho S.C.,-100.708396,20.704769,Guanajuato,Nueva Uganda,Italiana,2.5,8:00-23:00
-ba4aabe4-3b7a-4dab-a589-1de21820ceb9,Olivas-Esparza S.A. de C.V.,-112.864003,20.870735,Veracruz de Ignacio de la Llave,Vieja Noruega,Mexicana,2.1,8:00-22:00
-8b911534-9c79-4f64-86b7-396560087ea9,"Saavedra, Nájera y Cedillo",-113.214332,32.423568,Tabasco,San Pilar los bajos,Mariscos,3.8,9:00-23:00
-4b5eb5d1-9c9d-4ced-af8e-cecddcbbd9ef,"Grupo Guerra, Serna y Cano",-106.593545,26.913112,Puebla,San Elisa los altos,Italiana,3.7,9:00-22:00
-de0a150e-e76e-4235-b161-ab43c7d9c5e2,Nazario-Villalpando,-108.903518,20.516287,Zacatecas,San Aldo los bajos,Mexicana,1.6,8:00-21:00
-470786d4-eaf2-4ed7-bd03-2be46ec9f3c1,"Armendáriz, Parra y Garay",-109.528796,18.132523,Baja California,Nueva Arabia Saudita,Mexicana,2.6,8:00-20:00
-2cfda1c0-ad5a-4ebc-8b18-ed7c45a85195,Marrero-Núñez,-101.338092,17.202356,Chihuahua,San Esteban los altos,Japonesa,4.5,10:00-22:00
-ace95a4f-247a-4338-9bd9-589d5ea1183e,Peres S.A. de C.V.,-94.886959,29.956918,Zacatecas,San Berta de la Montaña,Mexicana,1.0,9:00-20:00
+fa2ed7f7-001e-41ab-a250-ff8926c2c26c,Grupo Bermúdez-Melgar,-102.313262,21.534144,Aguascalientes,Vieja Mali,Japonesa,5.0,7:00-21:00
+854db234-1f65-475a-bd90-785242cf60ff,"Grupo Soria, Vázquez y Aguilar",-108.083244,14.837997,Quintana Roo,San Irene los bajos,Japonesa,2.9,10:00-21:00
+56de922c-a1bb-4246-98a7-b15ba656c0a3,Industrias Alemán-Zepeda,-112.39897,15.778724,Jalisco,Nueva Santa Lucía,Vegetariana,3.6,7:00-22:00
+8ccb58a1-4523-41db-92b2-4c5cc348a28c,"Núñez, Orellana y Olivárez",-92.217492,21.522131,Yucatán,San Guillermina los altos,Japonesa,3.6,8:00-22:00
+c4028316-b6a2-426a-9984-77968bb10f25,"Despacho Alcántar, Santana y Ocasio",-98.418286,31.646435,México,Vieja República Dominicana,Mariscos,4.3,8:00-22:00
+4a00321e-a5fa-491c-b7ad-04ec45baeda3,"Cedillo, Centeno y Mojica",-97.927082,15.937092,Jalisco,Vieja Islas Marshall,Japonesa,2.1,7:00-22:00
+82f0f0ab-f50f-490e-9ae1-2619f93b3ecf,Armendáriz y Pulido S.A. de C.V.,-104.399547,22.733628,Chiapas,Nueva Venezuela,Italiana,3.0,7:00-22:00
+cbaf8724-0a17-401c-b8b0-4999c68da5d0,"Navarro, Mendoza y Chávez",-86.798795,16.244282,Guanajuato,San Nelly los bajos,Mexicana,2.0,7:00-22:00
+f83e29db-97ff-4499-8a30-55118cb97139,Padrón S.A. de C.V.,-115.096891,27.061562,Guanajuato,San Araceli de la Montaña,Vegetariana,1.6,10:00-23:00
+2bc1b109-b7de-4525-b892-5f0427d6adf8,Grupo Rico-Acuña,-87.729677,18.526372,México,Nueva Bahrein,Mexicana,3.2,10:00-23:00
+3e8afa40-cc93-4fb0-b129-b224ff23627f,Galarza y Mena S.A. de C.V.,-100.280987,20.137935,Nayarit,Vieja República Unida de Tanzanía,China,4.0,10:00-19:00
+5ed93c2c-3839-4344-bd8c-6f5eda7a1d9d,Olivas e Hijos,-109.7623,18.73186,Campeche,San Silvia de la Montaña,Mexicana,2.5,9:00-19:00
+9eee8071-3181-471d-a6a5-5a808cca9980,"Despacho Ledesma, Heredia y Barrientos",-116.497236,28.058708,Tamaulipas,San Esparta de la Montaña,Mariscos,3.0,10:00-21:00
+d51ad8fc-0cc6-46ea-bf31-40ca0a04c48e,Despacho Gaona-Jiménez,-116.115202,25.814894,Tabasco,Nueva Grecia,Vegetariana,3.4,7:00-21:00
+017e1cd1-5bbe-428a-a468-214a2d2f1fe0,"Serrato, Caldera y Aguilera",-102.218365,19.407967,Guerrero,Vieja Brunei Darussalam,China,4.8,7:00-20:00
+cd8f5802-9185-45fb-8d41-e140e37333c1,Quiñónez y Barajas S.C.,-102.773395,16.561901,Sinaloa,San Luis los altos,China,4.4,9:00-23:00
+fcf3885c-fe1f-408a-b3d0-b7f74fb368f4,"Laboratorios Miranda, Calderón y Guardado",-107.836709,20.403997,Chiapas,Nueva Guinea,Italiana,2.8,7:00-22:00
+4b495234-c98a-4be5-9175-f35228d0ac27,Proyectos Nieves y Leal,-88.5516,23.63751,Tabasco,San Irene los bajos,Vegetariana,2.2,10:00-22:00
+26f1c534-aee4-4776-95c5-91368050a207,"Proyectos Raya, Gutiérrez y Calvillo",-91.652387,30.07452,Tamaulipas,San Zoé de la Montaña,Italiana,1.7,8:00-20:00
+876ad4fc-44cf-4655-b2ac-3464e13bde59,"Grupo Lara, Maya y Flórez",-87.443879,29.214188,Zacatecas,Vieja México,Mexicana,1.9,9:00-22:00
+090f2be3-cae0-4be5-89d7-d90367f69496,Laboratorios Arreola-Acuña,-95.831101,26.570842,Distrito Federal,San Asunción los bajos,Mariscos,4.4,9:00-19:00
+d9518fbd-6ac6-412b-a599-b54fb620afa3,Corporacin Ayala y Montoya,-116.380764,16.959474,Tamaulipas,Nueva El Salvador,Mariscos,3.4,7:00-19:00
+df5ac462-afd0-4622-8290-89689c6bd6a5,"Venegas, Armendáriz y Salgado",-103.033791,15.52897,Distrito Federal,San Tomás los altos,Mexicana,2.4,10:00-20:00
+c04f7129-a8f4-440d-aa94-0aa304878ea4,Mascareñas S.A.,-113.692651,31.813902,Michoacán de Ocampo,Vieja Tayikistán,China,2.5,10:00-20:00
+f17f0f6a-a7e9-4b9c-9c7d-b87923d27850,"Grupo Alcántar, Valverde y Magaña",-87.541194,27.205054,Baja California,San Ángel de la Montaña,Mexicana,4.2,7:00-20:00
+39aa52d5-d786-4b7f-ab78-79296025bf65,Murillo-Muñiz S. R.L. de C.V.,-93.695665,24.019087,Hidalgo,Vieja Federación de Rusia,Italiana,3.6,7:00-23:00
+7bb917dc-272b-4d84-85c6-96b3a52f7ced,Carranza-Escamilla,-110.472158,22.208725,Veracruz de Ignacio de la Llave,Nueva Luxemburgo,Mexicana,4.5,10:00-22:00
+7c2b48e5-32c2-47c6-9c53-17fc38ef7512,Amador-Guillen S.C.,-88.073035,15.843688,Nayarit,San Raquel de la Montaña,Vegetariana,2.3,10:00-22:00
+7563a09d-7d83-4a0e-afe5-04d27e3bc749,Rincón-Nieto,-107.802925,23.055133,Hidalgo,Vieja Guinea,Mexicana,3.4,9:00-20:00
+166e45e7-0158-41cc-a09c-1cae75cdc751,Valdés y Aguirre S.A. de C.V.,-93.967348,30.353641,Guerrero,San Anel los altos,Vegetariana,1.2,10:00-21:00
+c6d84d3f-cc5c-46b5-b04b-8bcdc650c6e8,Nava-Mota S.A.,-113.595105,14.729245,Coahuila de Zaragoza,San Barbara los bajos,China,3.2,9:00-22:00
+de7234fe-8869-44d6-a05f-ac03f827f1da,"Grupo Ruiz, Balderas y Barajas",-97.291656,24.766996,Puebla,Vieja Belice,China,1.4,10:00-21:00
+1d84f804-ca56-4e53-b6ae-490114b33e33,Segura S.C.,-98.903226,22.782081,Yucatán,San Trinidad los altos,Japonesa,3.2,10:00-20:00
+507c2891-d7d8-4df7-b799-53c894a19f4a,del Río A.C.,-101.233933,27.511762,Veracruz de Ignacio de la Llave,San David los altos,China,2.8,10:00-21:00
+347efec1-5946-47c8-b52e-d9ae8db478d2,Gallegos-Henríquez e Hijos,-104.630194,15.082688,Querétaro,San Susana los altos,Japonesa,3.6,9:00-22:00
+eab3afd1-a29a-4208-af86-8517249ebefb,Zapata-Rivas e Hijos,-88.214869,29.596165,Puebla,San Nayeli de la Montaña,Vegetariana,2.5,8:00-19:00
+8b5cc1c3-d3bd-4379-9cbf-55e566f44685,Partida-Zaragoza,-111.185102,21.870374,Campeche,Nueva Swazilandia,Vegetariana,1.8,7:00-22:00
+3aaadacc-7046-49c6-ba9b-b0fa7f32365a,Escamilla-Patiño,-93.486634,22.617188,Tamaulipas,Nueva España,Italiana,3.3,7:00-23:00
+0b2daedf-c3a1-4e1a-8ab4-e4f0c11555fa,"Proyectos Garay, Iglesias y Domínguez",-107.457894,17.278776,Colima,Nueva Ghana,China,1.6,10:00-19:00
+0960ad33-b10b-421f-b49a-f7529289e006,Corporacin Villegas y Maestas,-106.792227,30.505582,Durango,Nueva San Marino,Mariscos,3.2,9:00-19:00
+0cf562ba-f398-4bb6-929c-857684940bef,Paz-Valdés S.A. de C.V.,-93.422884,32.089305,Chihuahua,Vieja Letonia,China,3.8,7:00-20:00
+ff6b97f0-54a8-46c7-9cf0-7e3c8c1457db,"Despacho Alonzo, Ruiz y Santacruz",-87.40341,29.77556,Coahuila de Zaragoza,Nueva Fiji,China,4.3,7:00-23:00
+4080a4cd-67a8-4bd3-b46e-6f7351c10029,Rodrígez-Carmona e Hijos,-100.180969,26.3223,Puebla,San Serafín de la Montaña,Japonesa,3.2,7:00-20:00
+bd4b3ffe-2927-4c4a-ba84-81e26d3f9747,Arreola-Blanco A.C.,-90.069784,23.117135,Jalisco,Vieja Finlandia,Mexicana,2.2,9:00-19:00
+59a2f4ad-d1ef-4b62-b450-2cd7ace4d428,Barajas-Laboy S.C.,-101.807623,30.304187,Campeche,Vieja Costa Rica,China,2.4,7:00-22:00
+d47b81f3-c0c9-4afd-b88c-aaf5646863bd,"Merino, Pineda y Montalvo",-96.473939,18.629184,Colima,Nueva Madagascar,Vegetariana,3.8,10:00-23:00
+09444248-5633-4b28-a7ec-a17aa802d1ac,"Club Coronado, Sanabria y Ulloa",-86.744709,31.145593,Tabasco,Nueva Luxemburgo,Japonesa,4.3,9:00-21:00
+bf6b7ff2-4dbd-4b83-8ede-7f23a93d8801,Despacho Fuentes-Rosales,-103.209866,21.154432,Nayarit,Nueva Nueva Zelandia,Italiana,3.7,10:00-21:00
+75651d88-bb4a-420a-8e6a-310d41c6907c,Proyectos Palomino y Mota,-92.455558,22.171432,San Luis Potosí,Vieja Senegal,Italiana,1.5,10:00-20:00
+80fd32e0-8ce5-4f6f-9460-d1ab2044527e,Merino y Pichardo S.A.,-99.078518,16.032101,Campeche,San Alejandra de la Montaña,Vegetariana,1.0,9:00-19:00
