@@ -1,1 +1,6 @@
 .env
+tmp_menu_items.csv
+tmp_ordenes.csv
+tmp_resenas.csv
+tmp_usuarios.csv
+tmp_restaurantes.csv

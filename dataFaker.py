@@ -48,6 +48,7 @@ with open("usuarios.csv", "w", newline="", encoding="utf-8") as f:
         )
 
 # ========== Restaurantes ==========
+horarios_restaurantes = {}
 with open("restaurantes.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
@@ -68,6 +69,10 @@ with open("restaurantes.csv", "w", newline="", encoding="utf-8") as f:
             round(random.uniform(-117.1, -86.7), 6),
             round(random.uniform(14.5, 32.7), 6),
         ]
+        hora_apertura = random.randint(7, 10)
+        hora_cierre = random.randint(19, 23)
+        horario_str = f"{hora_apertura}:00-{hora_cierre}:00"
+        horarios_restaurantes[temp_id] = (hora_apertura, hora_cierre)
         writer.writerow(
             [
                 temp_id,
@@ -87,7 +92,7 @@ with open("restaurantes.csv", "w", newline="", encoding="utf-8") as f:
                     ]
                 ),
                 round(random.uniform(1, 5), 1),
-                f"{random.randint(7,10)}:00-{random.randint(19,23)}:00",
+                horario_str,
             ]
         )
 
@@ -116,7 +121,7 @@ with open("menu_items.csv", "w", newline="", encoding="utf-8") as f:
                 fake.sentence(),
                 ", ".join(fake.words(nb=random.randint(2, 5))),
                 round(random.uniform(50, 300), 2),
-                random.choice([True, False]),
+                random.randint(0,150),
                 random.choice(["Entrada", "Plato fuerte", "Postre", "Bebida"]),
                 random.choice(restaurantes_ids),
             ]
@@ -133,7 +138,11 @@ with open("ordenes.csv", "w", newline="", encoding="utf-8") as f:
         ordenes_ids.append(temp_id)
         usuario_id = random.choice(usuarios_ids)
         restaurante_id = random.choice(restaurantes_ids)
-        fecha = fake.date_between(start_date="-1y", end_date="today")
+        fecha_base = fake.date_between(start_date="-1y", end_date="today")
+        hora_apertura, hora_cierre = horarios_restaurantes[restaurante_id]
+        hora_random = random.randint(hora_apertura, hora_cierre - 1)
+        minuto_random = random.choice([0, 15, 30, 45])
+        fecha = datetime.combine(fecha_base, datetime.min.time()) + timedelta(hours=hora_random, minutes=minuto_random)
         estado = random.choice(["Pendiente", "Preparando", "Entregado", "Cancelado"])
 
         # Generar entre 1 y 5 items por orden
@@ -153,7 +162,7 @@ with open("ordenes.csv", "w", newline="", encoding="utf-8") as f:
                 temp_id,
                 usuario_id,
                 restaurante_id,
-                fecha,
+                fecha.strftime("%Y-%m-%d %H:%M:%S"),
                 estado,
                 "|".join(items),
                 round(total, 2),
@@ -166,9 +175,9 @@ with open("resenas.csv", "w", newline="", encoding="utf-8") as f:
     writer.writerow(
         [
             "temp_id",
+            "reviewed_id",
+            "type",
             "usuario_id",
-            "orden_id",
-            "restaurante_id",
             "comentario",
             "calificacion",
             "fecha",
@@ -176,21 +185,27 @@ with open("resenas.csv", "w", newline="", encoding="utf-8") as f:
     )
     for _ in range(500):
         temp_id = str(uuid4())
+        tipo_objetivo = random.choice(["orden", "restaurante"])
+        if tipo_objetivo == "orden":
+            reviewed_id = random.choice(ordenes_ids)
+        else:
+            reviewed_id = random.choice(restaurantes_ids)
         usuario_id = random.choice(usuarios_ids)
-        orden_id = random.choice(ordenes_ids)
-        restaurante_id = random.choice(restaurantes_ids)
         comentario = fake.sentence()
         calificacion = random.randint(1, 5)
-        fecha = fake.date_between(start_date="-1y", end_date="today")
+        fecha_base = fake.date_between(start_date="-1y", end_date="today")
+        hora_random = random.randint(0, 23)
+        minuto_random = random.choice([0, 15, 30, 45])
+        fecha = datetime.combine(fecha_base, datetime.min.time()) + timedelta(hours=hora_random, minutes=minuto_random)
         writer.writerow(
             [
                 temp_id,
+                reviewed_id,
+                tipo_objetivo,
                 usuario_id,
-                orden_id,
-                restaurante_id,
                 comentario,
                 calificacion,
-                fecha,
+                fecha.strftime("%Y-%m-%d %H:%M:%S"),
             ]
         )
 
