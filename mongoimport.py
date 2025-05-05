@@ -4,6 +4,7 @@ import subprocess
 from dotenv import load_dotenv
 from bson import ObjectId
 from datetime import datetime
+from pymongo import MongoClient, TEXT, ASCENDING, DESCENDING, GEOSPHERE
 
 # Cargar variables de entorno
 load_dotenv()
@@ -168,6 +169,43 @@ def ejecutar_importaciones():
         subprocess.run(comando, check=True)
         print(f"✅ {coleccion} importada.")
 
+def crear_indices():
+    print("🔧 Creando índices...")
+
+    client = MongoClient(MONGO_URI)
+    db = client["test"]
+
+    # 1. Usuarios
+    db.usuarios.create_index("correo", name="idx_correo")  # Simple
+    db.usuarios.create_index([("nombre", ASCENDING), ("fecha_registro", DESCENDING)], name="idx_nombre_fecha")  # Compuesto
+
+    # 2. Restaurantes
+    db.restaurantes.create_index([("longitud", 1), ("latitud", 1)], name="idx_geo_pos")  # Geoespacial 2dsphere
+    db.restaurantes.create_index("categoria", name="idx_categoria")  # Simple
+    db.restaurantes.create_index([("nombre", TEXT), ("ciudad", TEXT)], name="idx_texto_nombre_ciudad")  # Texto
+
+    # 3. Menú
+    db.menu_items.create_index("disponible", name="idx_disponible")  # Simple
+    db.menu_items.create_index([("restaurante_id", ASCENDING), ("categoria", ASCENDING)], name="idx_rest_categoria")  # Compuesto
+    db.menu_items.create_index([("descripcion", TEXT)], name="idx_texto_descripcion")  # Texto
+
+    # 4. Ordenes
+    db.ordenes.create_index([("usuario_id", ASCENDING), ("fecha", DESCENDING)], name="idx_usuario_fecha")  # Compuesto
+    db.ordenes.create_index("estado", name="idx_estado")  # Simple
+    db.ordenes.create_index("items.item_id", name="idx_items_multikey")  # Multikey
+
+    # 5. Reseñas
+    db.resenas.create_index("usuario_id", name="idx_usuario")  # Simple
+    db.resenas.create_index("reviewed_id", name="idx_restaurante")  # Simple
+    db.resenas.create_index([("calificacion", DESCENDING), ("fecha", DESCENDING)], name="idx_calif_fecha")  # Compuesto
+
+    print("✅ Índices creados.")
+
+
 if __name__ == "__main__":
     generar_csv_con_ids_verdaderos()
     ejecutar_importaciones()
+    crear_indices()
+
+
+    
