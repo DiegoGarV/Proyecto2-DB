@@ -110,14 +110,19 @@ def generar_csv_con_ids_verdaderos():
             items_final = []
             for item in row["items"].split("|"):
                 item_id, cantidad, precio, descuento = item.split(":")
-                items_final.append(f"{id_map[item_id]}:{cantidad}:{precio}:{descuento}")
+                items_final.append({
+                    "item_id": id_map[item_id],
+                    "cantidad": int(cantidad),
+                    "precio_unitario": float(precio),
+                    "descuento": float(descuento)
+                })
             writer.writerow({
                 "_id": obj_id,
                 "usuario_id": id_map[row["usuario_id"]],
                 "restaurante_id": id_map[row["restaurante_id"]],
                 "fecha": row["fecha"],
                 "estado": row["estado"],
-                "items": "|".join(items_final),
+                "items": items_final,
                 "total": row["total"],
             })
 
