@@ -180,11 +180,14 @@ def obtener_orden(orden_id: str):
         return {"mensaje": "Orden no encontrada"}
     
 # Obtener una reseña por ID
-@app.get("/reseña/{reseña_id}")
-def obtener_reseña(reseña_id: str):
-    reseña = db["reseñas"].find_one({"_id": ObjectId(reseña_id)})
-    if reseña:
-        return parse_objectid(reseña)
+@app.get("/resena/{resena_id}")
+def obtener_reseña(resena_id: str):
+    if not ObjectId.is_valid(resena_id):
+        raise HTTPException(status_code=400, detail="ID inválido")
+
+    resena = db["resenas"].find_one({"_id": ObjectId(resena_id)})
+    if resena:
+        return parse_objectid(resena)
     else:
         return {"mensaje": "Reseña no encontrada"}
 
@@ -328,3 +331,26 @@ def actualizar_estados_ordenes(
             raise HTTPException(status_code=404, detail=f"Orden con ID {orden.id} no encontrada")
 
     return {"mensaje": "Estados de las órdenes actualizados correctamente"}
+
+# 4.1 Eliminar una reseña
+@app.delete("/resenas/{resena_id}")
+def eliminar_resena(resena_id: str):
+    if not ObjectId.is_valid(resena_id):
+        raise HTTPException(status_code=400, detail="ID de reseña inválido")
+
+    resultado = db["resenas"].delete_one({"_id": ObjectId(resena_id)})
+
+    if resultado.deleted_count == 0:
+        raise HTTPException(status_code=404, detail="Reseña no encontrada")
+
+    return {"mensaje": "Reseña eliminada correctamente"}
+
+# 4.2 Eliminar a todos los usuarios de un municipio específico
+@app.delete("/usuarios/municipio/{municipio}")
+def eliminar_usuarios_por_municipio(municipio: str):
+    resultado = db["usuarios"].delete_many({"direccion.municipio": municipio})
+
+    if resultado.deleted_count == 0:
+        return {"mensaje": f"No se encontraron usuarios en el municipio '{municipio}'"}
+    
+    return {"mensaje": f"{resultado.deleted_count} usuarios eliminados del municipio '{municipio}'"}
