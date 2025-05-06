@@ -14,6 +14,7 @@ from datetime import datetime
 from typing import List, Optional
 from fastapi.encoders import jsonable_encoder
 from pymongo.collection import ReturnDocument
+import re
 
 # Cargar variables de entorno
 load_dotenv()
@@ -73,7 +74,7 @@ class RestauranteIn(BaseModel):
     direccion: Direccion
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "nombre": "Taco Loco",
                 "categoria": "Mexicana",
@@ -109,6 +110,10 @@ class OrdenEstadoUpdate(BaseModel):
 class OrdenEstadoItem(BaseModel):
     id: str = Field(..., example="60c72b2f9b1e8a0f0c5d0808")
     estado: str = Field(..., example="Entregado")
+
+class IngredienteChange(BaseModel):
+    accion: str  # agregar o quitar
+    nombre: str
 
 # Obtener todos los usuarios
 @app.get("/usuarios")
@@ -354,3 +359,225 @@ def eliminar_usuarios_por_municipio(municipio: str):
         return {"mensaje": f"No se encontraron usuarios en el municipio '{municipio}'"}
     
     return {"mensaje": f"{resultado.deleted_count} usuarios eliminados del municipio '{municipio}'"}
+
+# 5.1 Restaurantes por ciudad
+@app.get("/restaurantes/por-ciudad")
+def obtener_restaurantes_por_ciudad():
+    pipeline = [
+        {
+            "$group": {
+                "_id": "$ciudad",
+                "total_restaurantes": {"$sum": 1}
+            }
+        },
+        {
+            "$sort": {"total_restaurantes": -1}
+        }
+    ]
+    
+    resultado = list(db["restaurantes"].aggregate(pipeline))
+    
+    return {"restaurantes_por_ciudad": resultado}
+
+# 5.1.2 Usuarios por municipio
+@app.get("/reportes/usuarios_por_municipio")
+def usuarios_por_municipio():
+    try:
+        pipeline = [
+            # Filtramos por el campo "municipio" dentro de la dirección
+            {
+                "$group": {
+                    "_id": "$direccion.municipio",  # Agrupamos por municipio
+                    "total_usuarios": {"$count": {}},  # Contamos el número de usuarios por municipio
+                }
+            },
+            # Ordenamos por el número de usuarios en orden descendente
+            {
+                "$sort": {"total_usuarios": -1}
+            }
+        ]
+
+        resultados = list(db["usuarios"].aggregate(pipeline))
+
+        # Convertimos ObjectId a string en caso de que sea necesario (en este caso no lo es, ya que solo estamos usando strings)
+        resultados = parse_objectid(resultados)
+
+        return {"usuarios_por_municipio": resultados}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+#5.2 Items del menú más vendidos por restaurante
+@app.get("/reportes/platos_mas_vendidos")
+def platos_mas_vendidos_por_restaurante():
+    try:
+        pipeline = [
+            # Filtramos las ordenes que están en estado "Entregado"
+            {"$match": {"estado": "Entregado"}},
+
+            # Desempaquetamos los items de cada orden
+            {"$unwind": "$items"},
+
+            # Agrupamos por restaurante y item_id, sumando la cantidad vendida
+            {
+                "$group": {
+                    "_id": {
+                        "restaurante_id": "$restaurante_id",
+                        "item_id": "$items.item_id"
+                    },
+                    "total_vendido": {"$sum": "$items.cantidad"}
+                }
+            },
+
+            # Buscamos la información del plato (nombre, precio, etc.)
+            {
+                "$lookup": {
+                    "from": "menu_items",
+                    "localField": "_id.item_id",
+                    "foreignField": "_id",
+                    "as": "plato_info"
+                }
+            },
+
+            # Desempaquetamos la información del plato
+            {"$unwind": "$plato_info"},
+
+            # Agrupamos por restaurante y creamos una lista de platos vendidos
+            {
+                "$group": {
+                    "_id": "$_id.restaurante_id",
+                    "platos_vendidos": {
+                        "$push": {
+                            "plato": "$plato_info.nombre",
+                            "cantidad": "$total_vendido",
+                            "precio": "$plato_info.precio"
+                        }
+                    }
+                }
+            },
+
+            # Buscamos la información del restaurante (nombre, etc.)
+            {
+                "$lookup": {
+                    "from": "restaurantes",
+                    "localField": "_id",
+                    "foreignField": "_id",
+                    "as": "restaurante_info"
+                }
+            },
+
+            # Desempaquetamos la información del restaurante
+            {"$unwind": "$restaurante_info"},
+
+            # Proyectamos el resultado final con el nombre del restaurante y la lista de platos vendidos
+            {
+                "$project": {
+                    "restaurante_nombre": "$restaurante_info.nombre",
+                    "platos_vendidos": 1
+                }
+            }
+        ]
+
+        resultados = list(db["ordenes"].aggregate(pipeline))
+
+        for r in resultados:
+            r["platos_vendidos"] = sorted(r["platos_vendidos"], key=lambda x: x["cantidad"], reverse=True)
+
+        resultados = parse_objectid(resultados)
+
+        return {"platos_mas_vendidos": resultados}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+#5.2.2 calificaciones promedio de los restaurantes con más de 10 reseñas
+@app.get("/reportes/calificaciones_promedio_restaurantes")
+def calificaciones_promedio_restaurantes():
+    try:
+        pipeline = [
+            # Filtramos las reseñas de tipo "restaurante"
+            {"$match": {"type": "restaurante"}},
+            
+            # Agrupamos por restaurante y contamos las reseñas
+            {
+                "$group": {
+                    "_id": "$reviewed_id",
+                    "total_reseñas": {"$count": {}},
+                    "calificacion_promedio": {"$avg": "$calificacion"}
+                }
+            },
+            
+            # Filtramos los restaurantes que tienen más de 10 reseñas
+            {
+                "$match": {
+                    "total_reseñas": {"$gt": 10}
+                }
+            },
+            
+            # Buscamos la información del restaurante (nombre, etc.)
+            {
+                "$lookup": {
+                    "from": "restaurantes",
+                    "localField": "_id",
+                    "foreignField": "_id",
+                    "as": "restaurante_info"
+                }
+            },
+            
+            # Desempaquetamos la información del restaurante
+            {"$unwind": "$restaurante_info"},
+            
+            # Proyectamos el resultado final con la calificación promedio y el nombre del restaurante
+            {
+                "$project": {
+                    "restaurante_nombre": "$restaurante_info.nombre",  # Nombre del restaurante
+                    "calificacion_promedio": 1,  # La calificación promedio
+                    "total_reseñas": 1  # El total de reseñas
+                }
+            },
+            
+            # Ordenamos los resultados por calificación promedio de forma descendente
+            {
+                "$sort": {"calificacion_promedio": -1}
+            }
+        ]
+        
+        # Ejecutamos la agregación en la colección de reseñas
+        resultados = list(db["resenas"].aggregate(pipeline))
+        
+        # Convertimos ObjectId a string en caso de que sea necesario
+        resultados = parse_objectid(resultados)
+        
+        return {"calificaciones_promedio_restaurantes": resultados}
+    
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+#5.3 Edición de items del menú
+@app.put("/menu/ingredientes/{nombre_item}")
+def editar_ingredientes(nombre_item: str, body: IngredienteChange):
+    # Buscar el item en el menú por nombre, insensible a mayúsculas
+    item = db["menu_items"].find_one({"nombre": {"$regex": f"^{re.escape(nombre_item)}$", "$options": "i"}})
+    if not item:
+        raise HTTPException(status_code=404, detail="Item no encontrado")
+
+    if body.accion == "agregar" and body.nombre:
+        # Agregar un ingrediente
+        db["menu_items"].update_one(
+            {"_id": item["_id"]},
+            {"$push": {"ingredientes": body.nombre}}
+        )
+    elif body.accion == "quitar" and body.nombre:
+        # Eliminar un ingrediente
+        db["menu_items"].update_one(
+            {"_id": item["_id"]},
+            {"$pull": {"ingredientes": {"nombre": body.nombre}}}
+        )
+
+    # Obtener el item actualizado
+    item_actualizado = db["menu_items"].find_one({"_id": item["_id"]})
+    if item_actualizado:
+        return parse_objectid(item_actualizado)
+    else:
+        raise HTTPException(status_code=500, detail="Error al actualizar el item")
