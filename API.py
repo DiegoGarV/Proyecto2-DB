@@ -2,16 +2,18 @@
 # python -m uvicorn API:app --reload
 # Visitar http://127.0.0.1:8000/docs para ver la documentación de la API
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Body
 from pymongo import MongoClient
 from bson import ObjectId
 from bson.json_util import dumps
 from dotenv import load_dotenv
 import os
 import json
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from datetime import datetime
-from typing import List
+from typing import List, Optional
+from fastapi.encoders import jsonable_encoder
+from pymongo.collection import ReturnDocument
 
 # Cargar variables de entorno
 load_dotenv()
@@ -35,6 +37,17 @@ def parse_objectid(obj):
         return str(obj)
     else:
         return obj
+    
+# Convierte un diccionario anidado en uno plano con claves jerárquicas
+def flatten_dict(d, parent_key='', sep='.'):
+    items = []
+    for k, v in d.items():
+        new_key = f"{parent_key}{sep}{k}" if parent_key else k
+        if isinstance(v, dict):
+            items.extend(flatten_dict(v, new_key, sep=sep).items())
+        else:
+            items.append((new_key, v))
+    return dict(items)
 
 # Clases de modelos para la validación de datos
 class Ubicacion(BaseModel):
@@ -42,9 +55,10 @@ class Ubicacion(BaseModel):
     latitud: float
 
 class Direccion(BaseModel):
-    nombre: str
-    ubicacion: Ubicacion
-    municipio: str
+    nombre: str = Field(..., example="Sucursal Centro")
+    municipio: str = Field(..., example="Guadalajara")
+    ubicacion: dict = Field(..., example={"latitud": 20.6597, "longitud": -103.3496})
+
 
 class UsuarioIn(BaseModel):
     nombre: str
@@ -54,13 +68,47 @@ class UsuarioIn(BaseModel):
     fecha_registro: str  # Formato: YYYY-MM-DD
 
 class RestauranteIn(BaseModel):
-    nombre: str
-    ubicacion: Ubicacion
-    departamento: str
-    ciudad: str
-    categoria: str
-    calificacion_promedio: float
-    horario: str
+    nombre: str = Field(..., example="Taco Loco")
+    categoria: str = Field(..., example="Mexicana")
+    direccion: Direccion
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "nombre": "Taco Loco",
+                "categoria": "Mexicana",
+                "direccion": {
+                    "nombre": "Sucursal Centro",
+                    "municipio": "Guadalajara",
+                    "ubicacion": {
+                        "latitud": 20.6597,
+                        "longitud": -103.3496
+                    }
+                }
+            }
+        }
+
+class UbicacionUpdate(BaseModel):
+    longitud: Optional[float] = None
+    latitud: Optional[float] = None
+
+class DireccionUpdate(BaseModel):
+    nombre: Optional[str] = None
+    ubicacion: Optional[UbicacionUpdate] = None
+    municipio: Optional[str] = None
+
+class UsuarioUpdate(BaseModel):
+    nombre: Optional[str] = None
+    correo: Optional[str] = None
+    telefono: Optional[str] = None
+    direccion: Optional[DireccionUpdate] = None
+
+class OrdenEstadoUpdate(BaseModel):
+    estado: str
+
+class OrdenEstadoItem(BaseModel):
+    id: str = Field(..., example="60c72b2f9b1e8a0f0c5d0808")
+    estado: str = Field(..., example="Entregado")
 
 # Obtener todos los usuarios
 @app.get("/usuarios")
@@ -156,11 +204,38 @@ def crear_usuario(usuario: UsuarioIn):
 
 # 1.2 Crear múltiples restaurantes
 @app.post("/restaurantes/bulk")
-def crear_restaurantes(restaurantes: List[RestauranteIn]):
-    docs = []
-    for restaurante in restaurantes:
-        doc = restaurante.dict()
-        docs.append(doc)
+def crear_restaurantes(
+    restaurantes: List[RestauranteIn] = Body(
+        ..., 
+        example=[
+            {
+                "nombre": "Taco Loco",
+                "categoria": "Mexicana",
+                "direccion": {
+                    "nombre": "Sucursal Centro",
+                    "municipio": "Guadalajara",
+                    "ubicacion": {
+                        "latitud": 20.6597,
+                        "longitud": -103.3496
+                    }
+                }
+            },
+            {
+                "nombre": "Pizza Bella",
+                "categoria": "Italiana",
+                "direccion": {
+                    "nombre": "Sucursal Norte",
+                    "municipio": "Zapopan",
+                    "ubicacion": {
+                        "latitud": 20.7411,
+                        "longitud": -103.3893
+                    }
+                }
+            }
+        ]
+    )
+):
+    docs = [restaurante.dict() for restaurante in restaurantes]
     resultado = db["restaurantes"].insert_many(docs)
     return {"mensaje": f"{len(resultado.inserted_ids)} restaurantes creados"}
 
@@ -207,6 +282,49 @@ def obtener_ordenes_mayores(goal: float = 100.00):
     }))
     return [parse_objectid(o) for o in ordenes]
 
+# 3.1 actualizar los datos de un usuario
+@app.put("/actualizarUsuario/{correo}")
+def actualizar_usuario(correo: str, datos: UsuarioUpdate):
+    filtro = {"correo": {"$regex": f"^{correo}$", "$options": "i"}}
+    usuario_existente = db["usuarios"].find_one(filtro)
 
+    if not usuario_existente:
+        raise HTTPException(status_code=404, detail="Usuario no encontrado")
 
+    update_fields = datos.dict(exclude_unset=True)
 
+    flat_update = flatten_dict(jsonable_encoder(update_fields))
+
+    usuario_actualizado = db["usuarios"].find_one_and_update(
+        filtro,
+        {"$set": flat_update},
+        return_document=ReturnDocument.AFTER
+    )
+
+    return {"mensaje": "Usuario actualizado", "usuario": parse_objectid(usuario_actualizado)}
+
+# 3.2 Actualizar los estados de una orden
+@app.put("/actualizarEstadosOrdenes")
+def actualizar_estados_ordenes(
+    ordenes: List[OrdenEstadoItem] = Body(..., example=[
+        {"id": "60c72b2f9b1e8a0f0c5d0808", "estado": "Entregado"},
+        {"id": "60c72b2f9b1e8a0f0c5d0809", "estado": "Cancelado"}
+    ])
+):
+    estados_validos = ["Cancelado", "Entregado", "Pendiente", "Preparando"]
+
+    for orden in ordenes:
+        if orden.estado not in estados_validos:
+            raise HTTPException(status_code=400, detail=f"Estado inválido: {orden.estado}")
+
+        filtro = {"_id": ObjectId(orden.id)}
+        result = db["ordenes"].find_one_and_update(
+            filtro,
+            {"$set": {"estado": orden.estado}},
+            return_document=ReturnDocument.AFTER
+        )
+
+        if not result:
+            raise HTTPException(status_code=404, detail=f"Orden con ID {orden.id} no encontrada")
+
+    return {"mensaje": "Estados de las órdenes actualizados correctamente"}
