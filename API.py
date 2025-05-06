@@ -572,7 +572,7 @@ def editar_ingredientes(nombre_item: str, body: IngredienteChange):
         # Eliminar un ingrediente
         db["menu_items"].update_one(
             {"_id": item["_id"]},
-            {"$pull": {"ingredientes": {"nombre": body.nombre}}}
+            {"$pull": {"ingredientes": body.nombre}}
         )
 
     # Obtener el item actualizado
