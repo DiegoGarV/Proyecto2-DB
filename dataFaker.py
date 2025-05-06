@@ -1,10 +1,13 @@
 import csv
 import random
+import os
 from faker import Faker
 from uuid import uuid4
 from datetime import datetime, timedelta
 
 fake = Faker("es_MX")
+
+os.makedirs("Data", exist_ok=True)
 
 # ========== Generadores de IDs ==========
 usuarios_ids = [str(uuid4()) for _ in range(1000)]
@@ -13,7 +16,7 @@ menu_items_ids = []
 ordenes_ids = []
 
 # ========== Usuarios ==========
-with open("usuarios.csv", "w", newline="", encoding="utf-8") as f:
+with open("Data/usuarios.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
         [
@@ -49,7 +52,7 @@ with open("usuarios.csv", "w", newline="", encoding="utf-8") as f:
 
 # ========== Restaurantes ==========
 horarios_restaurantes = {}
-with open("restaurantes.csv", "w", newline="", encoding="utf-8") as f:
+with open("Data/restaurantes.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
         [
@@ -97,7 +100,7 @@ with open("restaurantes.csv", "w", newline="", encoding="utf-8") as f:
         )
 
 # ========== Menú ==========
-with open("menu_items.csv", "w", newline="", encoding="utf-8") as f:
+with open("Data/menu_items.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
         [
@@ -128,7 +131,7 @@ with open("menu_items.csv", "w", newline="", encoding="utf-8") as f:
         )
 
 # ========== Órdenes ==========
-with open("ordenes.csv", "w", newline="", encoding="utf-8") as f:
+with open("Data/ordenes.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
         ["temp_id", "usuario_id", "restaurante_id", "fecha", "estado", "items", "total"]
@@ -170,7 +173,7 @@ with open("ordenes.csv", "w", newline="", encoding="utf-8") as f:
         )
 
 # ========== Reseñas ==========
-with open("resenas.csv", "w", newline="", encoding="utf-8") as f:
+with open("Data/resenas.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(
         [
