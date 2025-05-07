@@ -3,7 +3,7 @@
 # Visitar http://127.0.0.1:8000/docs para ver la documentación de la API
 
 from fastapi import FastAPI, HTTPException, Query, Body
-from pymongo import MongoClient
+from pymongo import MongoClient, InsertOne
 from bson import ObjectId
 from bson.json_util import dumps
 from dotenv import load_dotenv
@@ -591,3 +591,9 @@ def editar_ingredientes(nombre_item: str, body: IngredienteChange):
         return parse_objectid(item_actualizado)
     else:
         raise HTTPException(status_code=500, detail="Error al actualizar el item")
+    
+@app.post("/restaurantes/bulk")
+def crear_restaurantes_bulk(restaurantes: List[RestauranteIn]):
+    operaciones = [InsertOne(r.dict()) for r in restaurantes]
+    resultado = db["restaurantes"].bulk_write(operaciones)
+    return {"mensaje": f"{resultado.inserted_count} restaurantes creados"}
