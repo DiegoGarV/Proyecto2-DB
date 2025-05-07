@@ -15,6 +15,7 @@ from typing import List, Optional
 from fastapi.encoders import jsonable_encoder
 from pymongo.collection import ReturnDocument
 import re
+from fastapi.middleware.cors import CORSMiddleware
 
 # Cargar variables de entorno
 load_dotenv()
@@ -23,6 +24,15 @@ DB_NAME = "proyecto2-db"
 
 # Inicializar FastAPI
 app = FastAPI()
+
+# Permitir CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Conexión a MongoDB
 client = MongoClient(MONGO_URI)
