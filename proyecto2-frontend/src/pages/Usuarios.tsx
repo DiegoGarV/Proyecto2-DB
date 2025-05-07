@@ -8,6 +8,11 @@ export default function Usuarios() {
   const [proyeccion, setProyeccion] = useState<UsuarioProyeccion[]>([]);
   const [mostrarProyeccion, setMostrarProyeccion] = useState(false);
   const [updateForm, setUpdateForm] = useState(false);
+  const [municipioEliminar, setMunicipioEliminar] = useState("");
+  const [eliminacionMensaje, setEliminacionMensaje] = useState("");
+  const [elimForm, setElimForm] = useState(false);
+
+  
 
   // Estados para actualizar usuario
   const [correoActualizar, setCorreoActualizar] = useState("");
@@ -57,19 +62,63 @@ export default function Usuarios() {
     }
   };
 
+  const handleEliminarPorMunicipio = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!municipioEliminar.trim()) return;
+  
+    const confirmar = confirm(`¿Eliminar todos los usuarios de ${municipioEliminar}?`);
+    if (!confirmar) return;
+  
+    try {
+      const res = await api.delete(`/usuarios/municipio/${municipioEliminar}`);
+      setEliminacionMensaje(res.data.mensaje);
+      setMunicipioEliminar("");
+  
+      // Actualizar lista de usuarios:
+      const actualizados = await api.get<Usuario[]>("/usuarios");
+      setUsuarios(actualizados.data);
+    } catch (error) {
+      console.error(error);
+      setEliminacionMensaje("Error al eliminar usuarios por municipio.");
+    }
+  };
+  
+
   return (
     <div style={styles.container}>
       <h1>Usuarios</h1>
 
       <div style={{gap: "1rem", display: "flex", flexDirection: "row", alignItems: "center"}}>
-      <button style={styles.button} onClick={toggleProyeccion}>
-        {mostrarProyeccion ? "Ver información completa" : "Ver solo nombre y correo"}
-      </button>
-      <button style={styles.button} onClick={setUpdateForm.bind(null, !updateForm)}>
-        {updateForm ? "Cancelar" : "Modificar Usuario"}
-      </button>
-
+        <button style={styles.button} onClick={toggleProyeccion}>
+          {mostrarProyeccion ? "Ver información completa" : "Ver solo nombre y correo"}
+        </button>
+        <button style={styles.button} onClick={setUpdateForm.bind(null, !updateForm)}>
+          {updateForm ? "Cancelar" : "Modificar Usuario"}
+        </button>
+        <button style={styles.button} onClick={setElimForm.bind(null, !elimForm)}>
+          {elimForm ? "Cancelar" : "Eliminar Usuarios de Municipio"}
+        </button>
       </div>
+      {elimForm && (
+        <> 
+          <form onSubmit={handleEliminarPorMunicipio} style={styles.updateForm}>
+            <h3>Eliminar Usuarios por Municipio</h3>
+            <input
+              type="text"
+              placeholder="Nombre del municipio"
+              value={municipioEliminar}
+              onChange={(e) => setMunicipioEliminar(e.target.value)}
+              required
+            />
+            <button type="submit" style={{ ...styles.primaryButton, backgroundColor: "#ef4444" }}>
+              Eliminar Usuarios
+            </button>
+            {eliminacionMensaje && <p style={{ color: "#ef4444", marginTop: "0.5rem" }}>{eliminacionMensaje}</p>}
+          </form>
+        </>
+      )}
+
+
 
       {updateForm && (
         <>

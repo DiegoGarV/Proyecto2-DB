@@ -43,4 +43,12 @@ export interface Orden {
   items: any[];
 }
 
-  
+export interface Resena {
+  _id: string;
+  comentario: string;
+  calificacion: number;
+  type: string;
+  usuario_id: string;
+  reviewed_id: string;
+  fecha: string;
+}

@@ -8,6 +8,9 @@ export default function Restaurantes() {
   const [categoria, setCategoria] = useState("");
   const [error, setError] = useState("");
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
+  const [porCiudad, setPorCiudad] = useState<{ _id: string; total_restaurantes: number }[]>([]);
+  const [mostrarPorCiudad, setMostrarPorCiudad] = useState(false);
+
 
 
   const obtenerTodos = () => {
@@ -78,6 +81,17 @@ export default function Restaurantes() {
       alert("Error al crear restaurante");
     }
   };
+
+  const obtenerPorCiudad = async () => {
+    try {
+      const res = await api.get<{ restaurantes_por_ciudad: { _id: string, total_restaurantes: number }[] }>("/restaurantes/por-ciudad");
+      setPorCiudad(res.data.restaurantes_por_ciudad);
+      setMostrarPorCiudad(true);
+    } catch (err) {
+      console.error("Error al obtener restaurantes por ciudad:", err);
+    }
+  };
+  
   
 
   return (
@@ -87,9 +101,23 @@ export default function Restaurantes() {
       <button
         style={{...styles.primaryButton, marginTop: "1rem", marginBottom: "1rem"}}
         onClick={() => setMostrarFormulario((prev) => !prev)}
-        >
+      >
         {mostrarFormulario ? "Cancelar" : "Crear Restaurante"}
-        </button>
+      </button>
+
+      <button
+        style={{ ...styles.primaryButton, marginBottom: "1rem" }}
+        onClick={() => {
+          if (mostrarPorCiudad) {
+            setMostrarPorCiudad(false);
+          } else {
+            obtenerPorCiudad();
+          }
+        }}
+      >
+        {mostrarPorCiudad ? "Ocultar resumen por ciudad" : "Restaurantes por Ciudad"}
+      </button>
+
 
         {mostrarFormulario && (
         <div style={styles.formulario}>
@@ -135,16 +163,29 @@ export default function Restaurantes() {
 
       {error && <p style={styles.error}>{error}</p>}
 
-      <ul style={styles.list}>
-        {restaurantes.map((r) => (
-          <li key={r._id} style={styles.card}>
-            <strong>{r.nombre}</strong> — {r.categoria}<br />
-            📍 {r.ciudad}, {r.departamento} ({r.ubicacion.latitud}, {r.ubicacion.longitud})<br />
-            🕒 Horario: {r.horario}<br />
-            ⭐ Promedio: {r.calificacion_promedio.toFixed(1)} / 5
-          </li>
-        ))}
-      </ul>
+      {mostrarPorCiudad ? (
+        <ul style={styles.list}>
+          {porCiudad.map((item) => (
+            <li key={item._id} style={styles.card}>
+              <strong>Ciudad:</strong> {item._id} <br />
+              🍽️ Total de Restaurantes: {item.total_restaurantes}
+            </li>
+          ))}
+        </ul>
+      ): 
+        <ul style={styles.list}>
+          {restaurantes.map((r) => (
+            <li key={r._id} style={styles.card}>
+              <strong>{r.nombre}</strong> — {r.categoria}<br />
+              📍 {r.ciudad}, {r.departamento} ({r.ubicacion.latitud}, {r.ubicacion.longitud})<br />
+              🕒 Horario: {r.horario}<br />
+              ⭐ Promedio: {r.calificacion_promedio.toFixed(1)} / 5
+            </li>
+          ))}
+        </ul>
+      }
+
+
     </div>
   );
 }

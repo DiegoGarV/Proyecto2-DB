@@ -1,21 +1,11 @@
 import { useEffect, useState } from "react";
 import api from "../api/api";
-
-interface Resena {
-  _id: string;
-  comentario: string;
-  calificacion: number;
-  type: string;
-  usuario_id: string;
-  reviewed_id: string;
-  fecha: string;
-}
+import type { Resena } from "../interfaces/types";
 
 export default function Resenas() {
   const [resenas, setResenas] = useState<Resena[]>([]);
   const [error, setError] = useState("");
 
-  // Obtener todas las reseñas
   const obtenerTodas = () => {
     api.get<Resena[]>("/reseñas")
       .then((res) => {
@@ -25,7 +15,6 @@ export default function Resenas() {
       .catch(() => setError("Error al cargar reseñas"));
   };
 
-  // Obtener reseñas ordenadas por calificación
   const obtenerOrdenadas = () => {
     api.get<Resena[]>("/reseñas/ordenadas")
       .then((res) => {
@@ -33,6 +22,18 @@ export default function Resenas() {
         setError("");
       })
       .catch(() => setError("Error al ordenar reseñas"));
+  };
+
+  const eliminarResena = async (id: string) => {
+    const confirmar = confirm("¿Seguro que quieres eliminar esta reseña?");
+    if (!confirmar) return;
+
+    try {
+      await api.delete(`/resenas/${id}`);
+      setResenas(resenas.filter((r) => r._id !== id));
+    } catch {
+      alert("Error al eliminar la reseña.");
+    }
   };
 
   useEffect(() => {
@@ -58,6 +59,7 @@ export default function Resenas() {
         {resenas.length === 0 && <p>No hay reseñas disponibles.</p>}
         {resenas.map((r) => (
           <li key={r._id} style={styles.card}>
+            <button onClick={() => eliminarResena(r._id)} style={styles.deleteButton}>❌</button>
             <strong>Tipo:</strong> {r.type.toUpperCase()}<br />
             <strong>Comentario:</strong> {r.comentario}<br />
             <strong>Usuario:</strong> {r.usuario_id}<br />
@@ -76,13 +78,11 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center",
-    alignContent: "center",
     width: "100%",
     position: "absolute",
-    right: 0,
-    left: 0,
     top: 0,
+    left: 0,
+    right: 0,
   },
   title: {
     fontSize: "2rem",
@@ -125,6 +125,17 @@ const styles: { [key: string]: React.CSSProperties } = {
     padding: "1rem",
     marginBottom: "1rem",
     color: "black",
+    position: "relative",
+  },
+  deleteButton: {
+    position: "absolute",
+    top: "8px",
+    right: "10px",
+    background: "transparent",
+    border: "none",
+    color: "#ef4444",
+    fontSize: "1.2rem",
+    cursor: "pointer",
   },
   error: {
     color: "#f87171",
