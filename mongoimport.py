@@ -25,8 +25,8 @@ id_map = {}
 
 def generar_csv_con_ids_verdaderos():
     # === 1. USUARIOS ===
-    with open("usuarios.csv", newline="", encoding="utf-8") as fin, \
-         open("tmp_usuarios.csv", "w", newline="", encoding="utf-8") as fout:
+    with open("Data/usuarios.csv", newline="", encoding="utf-8") as fin, \
+         open("Data/tmp_usuarios.csv", "w", newline="", encoding="utf-8") as fout:
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=[
             "_id", "nombre", "correo", "telefono",
@@ -50,8 +50,8 @@ def generar_csv_con_ids_verdaderos():
             })
 
     # === 2. RESTAURANTES ===
-    with open("restaurantes.csv", newline="", encoding="utf-8") as fin, \
-         open("tmp_restaurantes.csv", "w", newline="", encoding="utf-8") as fout:
+    with open("Data/restaurantes.csv", newline="", encoding="utf-8") as fin, \
+         open("Data/tmp_restaurantes.csv", "w", newline="", encoding="utf-8") as fout:
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=[
             "_id", "nombre", "longitud", "latitud", "departamento",
@@ -74,8 +74,8 @@ def generar_csv_con_ids_verdaderos():
             })
 
     # === 3. MENÚ ===
-    with open("menu_items.csv", newline="", encoding="utf-8") as fin, \
-         open("tmp_menu_items.csv", "w", newline="", encoding="utf-8") as fout:
+    with open("Data/menu_items.csv", newline="", encoding="utf-8") as fin, \
+         open("Data/tmp_menu_items.csv", "w", newline="", encoding="utf-8") as fout:
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=[
             "_id", "nombre", "descripcion", "ingredientes", "precio",
@@ -97,8 +97,8 @@ def generar_csv_con_ids_verdaderos():
             })
 
     # === 4. ORDENES ===
-    with open("ordenes.csv", newline="", encoding="utf-8") as fin, \
-         open("tmp_ordenes.csv", "w", newline="", encoding="utf-8") as fout:
+    with open("Data/ordenes.csv", newline="", encoding="utf-8") as fin, \
+         open("Data/tmp_ordenes.csv", "w", newline="", encoding="utf-8") as fout:
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=[
             "_id", "usuario_id", "restaurante_id", "fecha", "estado",
@@ -128,8 +128,8 @@ def generar_csv_con_ids_verdaderos():
             })
 
     # === 5. RESEÑAS ===
-    with open("resenas.csv", newline="", encoding="utf-8") as fin, \
-        open("tmp_resenas.csv", "w", newline="", encoding="utf-8") as fout:
+    with open("Data/resenas.csv", newline="", encoding="utf-8") as fin, \
+        open("Data/tmp_resenas.csv", "w", newline="", encoding="utf-8") as fout:
         reader = csv.DictReader(fin)
         writer = csv.DictWriter(fout, fieldnames=[
             "_id", "reviewed_id", "type", "usuario_id", "comentario", "calificacion", "fecha"
@@ -150,11 +150,11 @@ def generar_csv_con_ids_verdaderos():
 
 def ejecutar_importaciones():
     colecciones_tmp = [
-        ("tmp_usuarios.csv", "usuarios"),
-        ("tmp_restaurantes.csv", "restaurantes"),
-        ("tmp_menu_items.csv", "menu_items"),
-        ("tmp_ordenes.csv", "ordenes"),
-        ("tmp_resenas.csv", "resenas")
+        ("Data/tmp_usuarios.csv", "usuarios"),
+        ("Data/tmp_restaurantes.csv", "restaurantes"),
+        ("Data/tmp_menu_items.csv", "menu_items"),
+        ("Data/tmp_ordenes.csv", "ordenes"),
+        ("Data/tmp_resenas.csv", "resenas")
     ]
     for archivo, coleccion in colecciones_tmp:
         comando = [

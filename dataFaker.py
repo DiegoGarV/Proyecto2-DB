@@ -10,8 +10,8 @@ fake = Faker("es_MX")
 os.makedirs("Data", exist_ok=True)
 
 # ========== Generadores de IDs ==========
-usuarios_ids = [str(uuid4()) for _ in range(1000)]
-restaurantes_ids = [str(uuid4()) for _ in range(50)]
+usuarios_ids = [str(uuid4()) for _ in range(10000)]
+restaurantes_ids = [str(uuid4()) for _ in range(100)]
 menu_items_ids = []
 ordenes_ids = []
 
@@ -114,7 +114,7 @@ with open("Data/menu_items.csv", "w", newline="", encoding="utf-8") as f:
             "restaurante_id",
         ]
     )
-    for _ in range(500):
+    for _ in range(1000):
         temp_id = str(uuid4())
         menu_items_ids.append(temp_id)
         writer.writerow(
@@ -136,7 +136,7 @@ with open("Data/ordenes.csv", "w", newline="", encoding="utf-8") as f:
     writer.writerow(
         ["temp_id", "usuario_id", "restaurante_id", "fecha", "estado", "items", "total"]
     )
-    for _ in range(800):
+    for _ in range(35000):
         temp_id = str(uuid4())
         ordenes_ids.append(temp_id)
         usuario_id = random.choice(usuarios_ids)
@@ -186,7 +186,7 @@ with open("Data/resenas.csv", "w", newline="", encoding="utf-8") as f:
             "fecha",
         ]
     )
-    for _ in range(500):
+    for _ in range(15000):
         temp_id = str(uuid4())
         tipo_objetivo = random.choice(["orden", "restaurante"])
         if tipo_objetivo == "orden":
