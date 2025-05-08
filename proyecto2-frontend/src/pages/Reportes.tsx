@@ -56,19 +56,23 @@ export default function Reportes() {
     <div style={{ padding: "2rem" }}>
       <h1 style={{ color: "#635BFF" }}>Reportes</h1>
 
-      <button onClick={toggleUsuariosPorMunicipio} style={styles.button}>Usuarios por Municipio</button>
-      {usuariosPorMunicipio.length > 0 && (
+      <button onClick={toggleUsuariosPorMunicipio} style={styles.button}>
+        {mostrarUsuarios ? "Ocultar" : "Mostrar"} Usuarios por Municipio
+      </button>
+      {mostrarUsuarios && (
         <ul style={styles.list}>
           {usuariosPorMunicipio.map((m) => (
             <li key={m._id} style={styles.card}>
-              🏘️ <strong>{m._id}</strong>: {m.total_usuarios} usuarios
+            🏘️ <strong>{m._id}</strong>: {m.total_usuarios} usuarios
             </li>
           ))}
         </ul>
       )}
 
-      <button onClick={togglePlatosMasVendidos} style={styles.button}>Platos más vendidos</button>
-      {platosMasVendidos.length > 0 && (
+      <button onClick={togglePlatosMasVendidos} style={styles.button}>
+        {mostrarPlatos ? "Ocultar" : "Mostrar"} Platos más vendidos
+      </button>
+      {mostrarPlatos && (
         <ul style={styles.list}>
           {platosMasVendidos.map((r) => (
             <li key={r.restaurante_nombre} style={styles.card}>
@@ -83,8 +87,10 @@ export default function Reportes() {
         </ul>
       )}
 
-      <button onClick={toggleCalificacionesPromedio} style={styles.button}>Calificaciones Promedio</button>
-      {calificacionesPromedio.length > 0 && (
+      <button onClick={toggleCalificacionesPromedio} style={styles.button}>
+        {mostrarCalificaciones ? "Ocultar" : "Mostrar"} Calificaciones Promedio
+      </button>
+      {mostrarCalificaciones && (
         <ul style={styles.list}>
           {calificacionesPromedio.map((r) => (
             <li key={r.restaurante_nombre} style={styles.card}>
