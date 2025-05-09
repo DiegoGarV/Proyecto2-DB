@@ -6,10 +6,12 @@ import Menu from "./pages/Menu";
 import Ordenes from "./pages/Ordenes";
 import Resenas from "./pages/Resenas";
 import Reportes from "./pages/Reportes";
+import HamburgerMenu from "./components/HamburguerMenu";
 
 function App() {
   return (
     <Router>
+      <HamburgerMenu />
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/usuarios" element={<Usuarios />} />

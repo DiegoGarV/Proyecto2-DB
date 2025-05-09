@@ -8,22 +8,29 @@ export default function Restaurantes() {
   const [categoria, setCategoria] = useState("");
   const [error, setError] = useState("");
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
+  const [formularios, setFormularios] = useState([crearFormularioVacio()]);
   const [porCiudad, setPorCiudad] = useState<{ _id: string; total_restaurantes: number }[]>([]);
   const [mostrarPorCiudad, setMostrarPorCiudad] = useState(false);
 
-
-
   const obtenerTodos = () => {
-    api.get<Restaurante[]>("/restaurantes")
+    const total = 50;
+    const skip = Math.floor(Math.random() * (total - 10));
+  
+    api.get<Restaurante[]>("/restaurantes", { params: { skip, limit: 10 } })
       .then((res) => setRestaurantes(res.data))
       .catch(() => setError("No se pudo cargar la lista de restaurantes"));
   };
-
+  
   useEffect(() => {
     obtenerTodos();
   }, []);
 
   const handleFiltrar = async () => {
+    if (!ciudad && !categoria) {
+      setError("Debes ingresar al menos una ciudad o categoría para filtrar.");
+      return;
+    }
+
     try {
       const params: any = {};
       if (ciudad) params.ciudad = ciudad;
@@ -38,47 +45,50 @@ export default function Restaurantes() {
     }
   };
 
-  const [nuevoRestaurante, setNuevoRestaurante] = useState({
-    nombre: "",
-    categoria: "",
-    nombreSucursal: "",
-    municipio: "",
-    latitud: "",
-    longitud: "",
-  });
-  
-  const handleCrearRestaurante = async () => {
+  function crearFormularioVacio() {
+    return {
+      nombre: "",
+      categoria: "",
+      nombreSucursal: "",
+      municipio: "",
+      latitud: "",
+      longitud: "",
+    };
+  }
+
+  const agregarFormulario = () => {
+    setFormularios([...formularios, crearFormularioVacio()]);
+  };
+
+  const actualizarFormulario = (index: number, campo: string, valor: string) => {
+    const nuevos = [...formularios];
+    (nuevos[index] as any)[campo] = valor;
+    setFormularios(nuevos);
+  };
+
+  const handleCrearVarios = async () => {
     try {
-      const body = [
-        {
-          nombre: nuevoRestaurante.nombre,
-          categoria: nuevoRestaurante.categoria,
-          direccion: {
-            nombre: nuevoRestaurante.nombreSucursal,
-            municipio: nuevoRestaurante.municipio,
-            ubicacion: {
-              latitud: parseFloat(nuevoRestaurante.latitud),
-              longitud: parseFloat(nuevoRestaurante.longitud),
-            },
+      const body = formularios.map((f) => ({
+        nombre: f.nombre,
+        categoria: f.categoria,
+        direccion: {
+          nombre: f.nombreSucursal,
+          municipio: f.municipio,
+          ubicacion: {
+            latitud: parseFloat(f.latitud),
+            longitud: parseFloat(f.longitud),
           },
         },
-      ];
-  
+      }));
+
       await api.post("/restaurantes/bulk", body);
-      alert("Restaurante creado");
+      alert("Restaurantes creados exitosamente");
       obtenerTodos();
       setMostrarFormulario(false);
-      setNuevoRestaurante({
-        nombre: "",
-        categoria: "",
-        nombreSucursal: "",
-        municipio: "",
-        latitud: "",
-        longitud: "",
-      });
+      setFormularios([crearFormularioVacio()]);
     } catch (err) {
       console.error(err);
-      alert("Error al crear restaurante");
+      alert("Error al crear restaurantes");
     }
   };
 
@@ -91,18 +101,16 @@ export default function Restaurantes() {
       console.error("Error al obtener restaurantes por ciudad:", err);
     }
   };
-  
-  
 
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>Restaurantes</h1>
 
       <button
-        style={{...styles.primaryButton, marginTop: "1rem", marginBottom: "1rem"}}
+        style={{ ...styles.primaryButton, marginTop: "1rem", marginBottom: "1rem" }}
         onClick={() => setMostrarFormulario((prev) => !prev)}
       >
-        {mostrarFormulario ? "Cancelar" : "Crear Restaurante"}
+        {mostrarFormulario ? "Cancelar" : "Crear Restaurantes"}
       </button>
 
       <button
@@ -118,28 +126,23 @@ export default function Restaurantes() {
         {mostrarPorCiudad ? "Ocultar resumen por ciudad" : "Restaurantes por Ciudad"}
       </button>
 
+      {mostrarFormulario && (
+        <div>
+          {formularios.map((formulario, index) => (
+            <div key={index} style={styles.formulario}>
+              <input placeholder="Nombre" value={formulario.nombre} onChange={(e) => actualizarFormulario(index, "nombre", e.target.value)} style={styles.input} />
+              <input placeholder="Categoría" value={formulario.categoria} onChange={(e) => actualizarFormulario(index, "categoria", e.target.value)} style={styles.input} />
+              <input placeholder="Sucursal" value={formulario.nombreSucursal} onChange={(e) => actualizarFormulario(index, "nombreSucursal", e.target.value)} style={styles.input} />
+              <input placeholder="Municipio" value={formulario.municipio} onChange={(e) => actualizarFormulario(index, "municipio", e.target.value)} style={styles.input} />
+              <input type="number" step="any" placeholder="Latitud" value={formulario.latitud} onChange={(e) => actualizarFormulario(index, "latitud", e.target.value)} style={styles.input} />
+              <input type="number" step="any" placeholder="Longitud" value={formulario.longitud} onChange={(e) => actualizarFormulario(index, "longitud", e.target.value)} style={styles.input} />
+            </div>
+          ))}
 
-        {mostrarFormulario && (
-        <div style={styles.formulario}>
-            <input placeholder="Nombre" value={nuevoRestaurante.nombre}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, nombre: e.target.value })} style={styles.input} />
-            <input placeholder="Categoría" value={nuevoRestaurante.categoria}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, categoria: e.target.value })} style={styles.input} />
-            <input placeholder="Nombre Sucursal" value={nuevoRestaurante.nombreSucursal}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, nombreSucursal: e.target.value })} style={styles.input} />
-            <input placeholder="Municipio" value={nuevoRestaurante.municipio}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, municipio: e.target.value })} style={styles.input} />
-            <input type="number" step="any" placeholder="Latitud" value={nuevoRestaurante.latitud}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, latitud: e.target.value })} style={styles.input} />
-            <input type="number" step="any" placeholder="Longitud" value={nuevoRestaurante.longitud}
-            onChange={(e) => setNuevoRestaurante({ ...nuevoRestaurante, longitud: e.target.value })} style={styles.input} />
-
-            <button onClick={handleCrearRestaurante} style={styles.primaryButton}>
-            Enviar
-            </button>
+          <button onClick={agregarFormulario} style={styles.secondaryButton}>Agregar otro restaurante</button>
+          <button onClick={handleCrearVarios} style={styles.primaryButton}>Enviar Todos</button>
         </div>
-        )}
-
+      )}
 
       <div style={styles.filterContainer}>
         <input
@@ -174,18 +177,30 @@ export default function Restaurantes() {
         </ul>
       ): 
         <ul style={styles.list}>
-          {restaurantes.map((r) => (
-            <li key={r._id} style={styles.card}>
-              <strong>{r.nombre}</strong> — {r.categoria}<br />
-              📍 {r.ciudad}, {r.departamento} ({r.ubicacion.latitud}, {r.ubicacion.longitud})<br />
-              🕒 Horario: {r.horario}<br />
-              ⭐ Promedio: {r.calificacion_promedio.toFixed(1)} / 5
-            </li>
-          ))}
+          {restaurantes.map((r) => {
+            const nombre = r.nombre || "Desconocido";
+            const categoria = r.categoria || "Desconocida";
+            const ciudad = r.ciudad || "Desconocida";
+            const departamento = r.departamento || "Desconocido";
+            const horario = r.horario || "Desconocido";
+            const promedio = typeof r.calificacion_promedio === "number"
+              ? r.calificacion_promedio.toFixed(1)
+              : "N/A";
+
+            const lat = r.ubicacion?.latitud ?? "N/A";
+            const long = r.ubicacion?.longitud ?? "N/A";
+
+            return (
+              <li key={r._id} style={styles.card}>
+                <strong>{nombre}</strong> — {categoria}<br />
+                📍 {ciudad}, {departamento} ({lat}, {long})<br />
+                🕒 Horario: {horario}<br />
+                ⭐ Promedio: {promedio} / 5
+              </li>
+            );
+          })}
         </ul>
       }
-
-
     </div>
   );
 }
@@ -193,31 +208,25 @@ export default function Restaurantes() {
 const styles: { [key: string]: React.CSSProperties } = {
   container: {
     display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      alignContent: 'center',
-      width: "100%",
-      position: 'absolute',
-      right: 0,
-      left: 0,
-      top: 0,
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+    position: "absolute",
+    right: 0,
+    left: 0,
+    top: 0,
   },
   title: {
     fontSize: "2rem",
     marginBottom: "1rem",
     color: "#635BFF",
   },
-  filterContainer: {
-    display: "flex",
-    gap: "1rem",
-    marginBottom: "1.5rem",
-  },
   input: {
     padding: "0.5rem",
     border: "1px solid #ccc",
     borderRadius: "5px",
     fontSize: "1rem",
+    marginRight: "0.5rem"
   },
   primaryButton: {
     backgroundColor: "#1DA1F2",
@@ -227,6 +236,34 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: "5px",
     cursor: "pointer",
     fontWeight: "bold",
+    margin: "0.5rem",
+  },
+  secondaryButton: {
+    backgroundColor: "white",
+    color: "#1DA1F2",
+    border: "1px solid #1DA1F2",
+    padding: "10px 20px",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontWeight: "bold",
+    marginBottom: "0.5rem",
+  },
+  formulario: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: "0.7rem",
+    marginBottom: "1rem",
+    backgroundColor: "#f3f4f6",
+    padding: "1rem",
+    border: "1px solid #ccc",
+    borderRadius: "6px",
+    maxWidth: "800px",
+  },
+  filterContainer: {
+    display: "flex",
+    gap: "1rem",
+    marginBottom: "1.5rem",
   },
   list: {
     listStyle: "none",
@@ -246,17 +283,5 @@ const styles: { [key: string]: React.CSSProperties } = {
     color: "#f87171",
     fontWeight: "bold",
     marginBottom: "1rem",
-  },
-  formulario: {
-    marginTop: "1rem",
-    marginBottom: "1rem",
-    justifyContent: 'center',
-    alignItems: 'center',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.7rem',
-    border: '1px solid #ccc',
-    padding: '1rem',
-    backgroundColor: "rgb(156, 183, 190)"
   }
 };

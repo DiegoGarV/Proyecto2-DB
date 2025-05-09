@@ -52,3 +52,14 @@ export interface Resena {
   reviewed_id: string;
   fecha: string;
 }
+
+export interface MenuItem {
+  _id: string;
+  nombre: string;
+  descripcion: string;
+  ingredientes: string[];
+  precio: number;
+  disponible: number;
+  categoria: string;
+  restaurante_id: string;
+}

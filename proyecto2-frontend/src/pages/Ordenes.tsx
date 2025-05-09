@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import api from "../api/api";
 import type { Orden } from "../interfaces/types";
 
-
 export default function Ordenes() {
   const [ordenes, setOrdenes] = useState<Orden[]>([]);
   const [error, setError] = useState("");
@@ -10,6 +9,7 @@ export default function Ordenes() {
   const [buscarId, setBuscarId] = useState("");
   const [nuevoEstado, setNuevoEstado] = useState("");
   const [ordenIdActualizar, setOrdenIdActualizar] = useState("");
+  const [multipleUpdates, setMultipleUpdates] = useState([{ id: "", estado: "" }]);
 
   const obtenerTodas = () => {
     api.get<Orden[]>("/ordenes")
@@ -43,7 +43,7 @@ export default function Ordenes() {
         setError((res.data as any).mensaje);
         return;
       }
-      
+
       setOrdenes([res.data]);
       setError("");
     } catch {
@@ -60,6 +60,28 @@ export default function Ordenes() {
     } catch (err) {
       console.error(err);
       alert("Error al actualizar estado");
+    }
+  };
+
+  const handleMultiChange = (index: number, field: string, value: string) => {
+    const updates = [...multipleUpdates];
+    (updates[index] as any)[field] = value;
+    setMultipleUpdates(updates);
+  };
+
+  const addUpdateRow = () => {
+    setMultipleUpdates([...multipleUpdates, { id: "", estado: "" }]);
+  };
+
+  const sendMultipleUpdates = async () => {
+    try {
+      await api.put("/actualizarEstadosOrdenes", multipleUpdates);
+      alert("Estados actualizados correctamente");
+      obtenerTodas();
+      setMultipleUpdates([{ id: "", estado: "" }]);
+    } catch (err) {
+      console.error(err);
+      alert("Error al actualizar estados múltiples");
     }
   };
 
@@ -113,10 +135,36 @@ export default function Ordenes() {
           <option value="Pendiente">Pendiente</option>
           <option value="Preparando">Preparando</option>
         </select>
-
         <button onClick={actualizarEstado} style={styles.button}>
           Actualizar
         </button>
+      </div>
+
+      <div style={styles.section}>
+        <h3>Actualizar múltiples órdenes</h3>
+        {multipleUpdates.map((u, idx) => (
+          <div key={idx} style={{ display: "flex", gap: "1rem", marginBottom: "0.5rem" }}>
+            <input
+              placeholder="ID"
+              value={u.id}
+              onChange={(e) => handleMultiChange(idx, "id", e.target.value)}
+              style={styles.input}
+            />
+            <select
+              value={u.estado}
+              onChange={(e) => handleMultiChange(idx, "estado", e.target.value)}
+              style={styles.input}
+            >
+              <option value="">Selecciona estado</option>
+              <option value="Cancelado">Cancelado</option>
+              <option value="Entregado">Entregado</option>
+              <option value="Pendiente">Pendiente</option>
+              <option value="Preparando">Preparando</option>
+            </select>
+          </div>
+        ))}
+        <button onClick={addUpdateRow} style={styles.button}>Agregar otra orden</button>
+        <button onClick={sendMultipleUpdates} style={styles.refreshButton}>Actualizar Todas</button>
       </div>
 
       <button onClick={obtenerTodas} style={styles.refreshButton}>
@@ -181,6 +229,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: "5px",
     fontWeight: "bold",
     cursor: "pointer",
+    marginBottom: "0.5rem"
   },
   refreshButton: {
     backgroundColor: "#10b981",

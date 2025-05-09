@@ -35,7 +35,7 @@ export default function Reportes() {
         } catch (err) {
             console.error("Error al cargar platos", err);
         }
-        }
+      }
     };
 
     const toggleCalificacionesPromedio = async () => {
